@@ -15,9 +15,18 @@
 }
 
 #buttons{
+    width: 288px;
+    height: 48px;
     position: relative;
-    margin: auto;
-    width: 50%;
+    margin-left: 40%;
+}
+
+#content{
+    margin-top: 0;
+    margin-right: 10%;
+    margin-bottom: 0;
+    margin-left: 10%;
+    width: auto;
 }
 
 .indexBtn{
@@ -26,11 +35,11 @@
     font-family: sans-serif;
     padding: 5px;
     display: inline-block;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     border-left: 1px solid rgb(50,50,50);
     border-right: 1px solid rgb(50,50,50);
-    border-bottom: 1px solid rgb(50,50,50);
+    border-top: 1px solid rgb(50,50,50);
     -webkit-transition: background-color 0.2s;
     transition: background-color 0.3s;
 }
@@ -41,5 +50,5 @@
 
 hr {
     width: 80%;
-    margin-bottom: 0;
+    margin-top: 0;
 }

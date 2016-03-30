@@ -10,11 +10,21 @@
             <br>
             <div id="headLogo"><br><br><br>LOGO</div>
             <br><br>
-            <hr>
             <div id="buttons">
-                <div id="utvalgBtn" class="indexBtn">Utvalg</div>
-                <div id="createBtn" class="indexBtn">Hvordan starte utvalg?</div>
-                <div id="aboutBtn" class="indexBtn">About</div>
+                <a href="?content=1"><div id="startBtn" class="indexBtn">Start</div></a>
+                <a href="?content=2"><div id="utvalgBtn" class="indexBtn">Utvalg</div></a>
+                <a href="?content=3"><div id="aboutBtn" class="indexBtn">About</div></a>
+            </div>
+            <hr>
+            <div id="content">
+                <?php 
+                switch($_GET['content']){
+                case 1: include 'start.php'; break;
+                case 2: include 'utvalg.php'; break;
+                case 3: include 'index.php'; break;
+                default: include 'start.php';
+                }
+                ?>
             </div>
         </div>
     </body>
