@@ -17,10 +17,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `pj_2100_gruppe_22`
+-- Database: `marcle15`
 --
-CREATE DATABASE IF NOT EXISTS `pj_2100_gruppe_22` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `pj_2100_gruppe_22`;
+CREATE DATABASE IF NOT EXISTS `marcle15` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `marcle15`;
 
 -- --------------------------------------------------------
 
