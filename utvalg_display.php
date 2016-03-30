@@ -2,14 +2,17 @@
     
 include "db_connect.php";
 // mysqli connection in db_connect saved in $link variable
-echo "<h2>UTVALG_DISPLAY INCLUDED</h2>";
 
-$categories = array_values($_GET);
+// Big fat message just to check whether 'include' in utvalg.php works only
+// when one or more categories are selected
+echo "<h2><span style=\"color:red\">UTVALG_DISPLAY.PHP INCLUDED <<-- this should not show if no boxes are checked</span></h2>";
+
 
 /* 
 "quotify" every member of the array returned by $_GET
 to fit in the SQL query
 */
+$categories = array_values($_GET);
 $categories = "'".implode("', '", $categories)."'";
 
 $sql= 
