@@ -49,6 +49,10 @@
 }
 
 hr {
-    width: 80%;
+    width: 70%;
     margin-top: 0;
+}
+
+body.home div.home, body.utvalg div.utvalg, body.about div.about{
+    background-color: rgb(255,50,50);
 }
