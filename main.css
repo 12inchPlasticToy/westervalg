@@ -14,11 +14,18 @@
     border-radius: 10%;
 }
 
-#buttons{
+.buttons{
     width: 288px;
     height: 48px;
     position: relative;
     margin-left: 40%;
+}
+
+.utvalgButtons{
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-left: 35%;
 }
 
 #content{
@@ -44,15 +51,32 @@
     transition: background-color 0.3s;
 }
 
+.utvalgMenu{
+    margin: 0;
+    font-size: 1em;
+    font-family: sans-serif;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid rgb(50,50,50);
+    -webkit-transition: background-color 0.2s;
+    transition: background-color 0.3s;
+}
+
+.utvalgMenu:hover{
+    background-color: rgb(220,220,220);
+}
+
 .indexBtn:hover{
-    background-color: rgb(255,50,50);
+    background-color: rgb(220,220,220);
 }
 
 hr {
     width: 70%;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
-body.home div.home, body.utvalg div.utvalg, body.about div.about{
-    background-color: rgb(255,50,50);
+body.home div.home, body.utvalg div.utvalg, body.about div.about, body.utvalg div.finn{
+    background-color: rgb(255,170,170);
 }
