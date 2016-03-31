@@ -7,9 +7,9 @@
     <br>
     <br>
     <div class="buttons">
-        <a href="start.php"><div id="startBtn" class="indexBtn home">Start</div></a>
-        <a href="utvalg.php"><div id="utvalgBtn" class="indexBtn utvalg">Utvalg</div></a>
-        <a href="about.php"><div id="aboutBtn" class="indexBtn about">About</div></a>
+        <a href="utvalg.php"><div class="indexBtn utvalg">Utvalg</div></a>
+        <a href="faq.php"><div class="indexBtn home">FAQ</div></a>
+        <a href="about.php"><div class="indexBtn about">Om oss</div></a>
     </div>
     <hr>
     <!--
