@@ -6,7 +6,7 @@
     </head>
     <body class="home">
         <?php include "header.php"; ?>
-    <div id="content">
+    <div id="content" class="faq">
         <h1>FAQ</h1>
         <br>
         <p>Q: This is a question.</p>
