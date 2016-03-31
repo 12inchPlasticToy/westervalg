@@ -31,34 +31,24 @@ $sql=
         )";
 
 $stmt = $link->prepare(htmlspecialchars($sql));
-
 if($stmt === false){
+    echo '<br><br><span style="color:red">';
     die('<br><br><span style="color:red">
     Query parameter error.<br>
     Please check the URL or use the category buttons.</span>');
 }
-
 $stmt->execute();
 
-$result = $stmt->get_result();
-
-if($result->num_rows > 0){
+$stmt->bind_result($utvalg);
 
 /*
 Display the result as a simple table for prototype version
 */
-    echo "<table border=\"2\"><tr><th>UTVALG</th></tr>";
-    
-    while($row = $result->fetch_array(MYSQLI_NUM)){
-        echo "<tr><td>".$row[0]."</td></tr>";
-    }
-    
-    echo "</table>";    
+echo "<table border=\"2\"><tr><th>UTVALG</th></tr>";
+while($stmt->fetch()){
+    echo "<tr><td>".$utvalg."</td></tr>";
 }
-else {
-    echo '<br><br>';
-    echo 'Ingen utvalg tilhører kategorien '.$categories.' for øyeblikket';
-}
+echo "</table>";
 
 $stmt->close();
 
