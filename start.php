@@ -6,42 +6,10 @@
     </head>
     <body class="home">
         <?php include "header.php"; ?>
-       <p>Detta är startsidan.</p>
+    <div id="content">
+        <p>Detta är startsidan.</p>
         <p>Här ska det stå information om hemsidan osv.</p>
         <p>Tryck på länkarna!!!!</p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+    </div>
     </body>
 </html>

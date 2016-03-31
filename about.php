@@ -7,7 +7,10 @@
     </head>
     <body class="about">
         <?php include "header.php"; ?>
-        <p>blablabla</p>
-        <p>Här ska det t.ex. vara en text om oss som administrerar sidan.</p>        
+
+        <div id="content">
+            <p>blablabla</p>
+            <p>Här ska det t.ex. vara en text om oss som administrerar sidan.</p>
+        </div>
     </body>
 </html>

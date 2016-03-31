@@ -14,7 +14,7 @@
         </div>
         
         <!-- category selector START-->
-        
+        <div id="content">
         <h2>Velg en kategori</h2>
         
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="get">
@@ -59,5 +59,6 @@
         <br>
         HELLO WORLD
         <img width="70%" src="images/student.jpg">
+        </div>
     </body>
 </html>
