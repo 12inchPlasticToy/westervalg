@@ -53,12 +53,6 @@
         
         <!-- display the results according to checked buttons -->
         <?php include "utvalg_display.php";?>
-        
-        <br>
-        <br>
-        <br>
-        HELLO WORLD
-        <img width="70%" src="images/student.jpg">
         </div>
     </body>
 </html>
