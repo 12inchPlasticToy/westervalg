@@ -7,9 +7,13 @@
     <body class="home">
         <?php include "header.php"; ?>
     <div id="content">
-        <p>Detta är startsidan.</p>
-        <p>Här ska det stå information om hemsidan osv.</p>
-        <p>Tryck på länkarna!!!!</p>
+        <h1>FAQ</h1>
+        <br>
+        <p>Q: This is a question.</p>
+        <p>A: This is the answer!</p>
+        <hr>
+        <p>Q: This is another question...</p>
+        <p>A: OMG another question what is this even</p>
     </div>
     </body>
 </html>
