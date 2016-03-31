@@ -21,7 +21,8 @@
             
                 <?php
                 /**
-                This is just for testing, should be refactored
+                Hardcoded copy of all categories from database table "kategori".
+                If more database queries are allowed, could be populated dynamically.
                 **/
                 $themes = array('Baren',
                                 'Bowling',
