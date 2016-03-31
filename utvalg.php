@@ -15,44 +15,44 @@
         
         <!-- category selector START-->
         <div id="content">
-        <h2>Velg en kategori</h2>
-        
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="get">
-        
-            <?php
-            /**
-            This is just for testing, should be refactored
-            **/
-            $themes = array('Baren',
-                            'Bowling',
-                            'Brett- og kortspill',
-                            'Bøker',
-                            'Fester',
-                            'Film',
-                            'For ansatte',
-                            'For studenter',
-                            'Gaming',
-                            'Gründervirksomhet',
-                            'IT',
-                            'Kunst', 
-                            'Musikk', 
-                            'Utflukter',
-                            'Utvikling');
+            <h2>Velg en kategori</h2>
             
-            foreach($themes as $category){
+            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="get">
+            
+                <?php
+                /**
+                This is just for testing, should be refactored
+                **/
+                $themes = array('Baren',
+                                'Bowling',
+                                'Brett- og kortspill',
+                                'Bøker',
+                                'Fester',
+                                'Film',
+                                'For ansatte',
+                                'For studenter',
+                                'Gaming',
+                                'Gründervirksomhet',
+                                'IT',
+                                'Kunst', 
+                                'Musikk', 
+                                'Utflukter',
+                                'Utvikling');
                 
-                echo "<input type=\"checkbox\" name=\"$category\" value=\"$category\">$category";
-            }
-            ?>
-            <br>
-            <input type="submit" value="Søk">
-            <input type="reset" value="Reset">
-        </form>
-        
-        <!-- category selector END-->
-        
-        <!-- display the results according to checked buttons -->
-        <?php include "utvalg_display.php";?>
+                foreach($themes as $category){
+                    
+                    echo "<input type=\"checkbox\" name=\"$category\" value=\"$category\">$category";
+                }
+                ?>
+                <br>
+                <input type="submit" value="Søk">
+                <input type="reset" value="Vis alle">
+            </form>
+            
+            <!-- category selector END-->
+            
+            <!-- display the results according to checked buttons -->
+            <?php include "utvalg_display.php";?>
         </div>
     </body>
 </html>

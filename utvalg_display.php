@@ -12,7 +12,13 @@ echo "<h2><span style=\"color:red\">UTVALG_DISPLAY.PHP INCLUDED <<-- this should
 "quotify" every member of the array returned by $_GET
 to fit in the SQL query
 */
-$categories = array_values($_GET);
+
+if(empty($_GET)){
+	$categories = $themes;
+}else{
+	$categories = array_values($_GET);
+}
+
 $categories = "'".implode("', '", $categories)."'";
 
 $sql= 
