@@ -9,8 +9,8 @@
         <?php include "header.php"; ?>
         <div id="content">
             <h1>This is index.php</h1>
-            <p>This is the page the header logo direct to. Should we make this our "start" page?</p>
-            <p>If so, what could we put instead of the "start" button, and what page should it direct to?</p>
+            <p>This is the page the header logo direct to.</p>
+            <p>We will be adding info about the page, like what you can do and find here etc, later.</p>
         </div>
     </body>
 </html>

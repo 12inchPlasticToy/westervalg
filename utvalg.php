@@ -7,12 +7,7 @@
     </head>
     <body class="utvalg">
         <?php include "header.php"; ?>
-        <br>
-        <div class="utvalgButtons">
-            <a href=#><div id="findBtn" class="utvalgMenu finn">Finn utvalg</div></a>
-            <a href=#><div id="newBtn" class="utvalgMenu startNew">Hvordan starte nytt utvalg?</div></a>
-        </div>
-        
+        <br>        
         <!-- category selector START-->
         <div id="content">
             <h2>Velg en kategori</h2>

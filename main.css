@@ -35,13 +35,6 @@
     text-align: center;
 }
 
-.utvalgButtons{
-    width: auto;
-    height: auto;
-    position: relative;
-    margin-left: 35%;
-}
-
 #content{
     margin-top: 0;
     margin-right: 10%;
@@ -68,25 +61,6 @@
     -ie-transition: background-color 0.2s;
     -o-transition: background-color 0.2s;
     transition: background-color 0.3s;
-}
-
-.utvalgMenu{
-    margin: 0;
-    font-size: 1em;
-    font-family: sans-serif;
-    padding: 5px;
-    display: inline-block;
-    border-radius: 8px;
-    border: 1px solid rgb(50,50,50);
-    -webkit-transition: background-color 0.2s;
-    -moz-transition: background-color 0.2s;
-    -ie-transition: background-color 0.2s;
-    -o-transition: background-color 0.2s;
-    transition: background-color 0.3s;
-}
-
-.utvalgMenu:hover{
-    background-color: rgb(220,220,220);
 }
 
 .indexBtn:hover{
