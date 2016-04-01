@@ -25,6 +25,73 @@ USE `marcle15`;
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `utvalg_kategori`
+--
+
+DROP TABLE IF EXISTS `utvalg_kategori`;
+CREATE TABLE IF NOT EXISTS `utvalg_kategori` (
+  `id_utvalg` int(11) NOT NULL DEFAULT '0',
+  `id_kategori` int(11) NOT NULL DEFAULT '0'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `utvalg_kategori`
+--
+
+INSERT INTO `utvalg_kategori` (`id_utvalg`, `id_kategori`) VALUES
+(2, 1),
+(5, 1),
+(4, 2),
+(7, 2),
+(6, 3),
+(17, 3),
+(5, 4),
+(8, 5),
+(7, 6),
+(3, 7),
+(1, 8),
+(8, 8),
+(1, 9),
+(9, 9),
+(10, 10),
+(13, 11),
+(11, 12),
+(12, 13),
+(1, 14),
+(2, 14),
+(3, 14),
+(4, 14),
+(5, 14),
+(6, 14),
+(7, 14),
+(8, 14),
+(9, 14),
+(10, 14),
+(11, 14),
+(12, 14),
+(13, 14),
+(15, 14),
+(16, 14),
+(17, 14),
+(1, 15),
+(4, 15),
+(5, 15),
+(6, 15),
+(9, 15),
+(10, 15),
+(11, 15),
+(12, 15),
+(13, 15),
+(14, 15),
+(15, 16),
+(17, 16),
+(15, 17),
+(11, 18),
+(16, 18);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `kategori`
 --
 
@@ -93,72 +160,6 @@ INSERT INTO `utvalg` (`ID`, `Navn`) VALUES
 (15, 'Teater og skuespill utvalget'),
 (7, 'Utviklingsutvalget');
 
--- --------------------------------------------------------
-
---
--- Table structure for table `utvalg_kategori`
---
-
-DROP TABLE IF EXISTS `utvalg_kategori`;
-CREATE TABLE IF NOT EXISTS `utvalg_kategori` (
-  `id_utvalg` int(11) NOT NULL DEFAULT '0',
-  `id_kategori` int(11) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `utvalg_kategori`
---
-
-INSERT INTO `utvalg_kategori` (`id_utvalg`, `id_kategori`) VALUES
-(2, 1),
-(5, 1),
-(4, 2),
-(7, 2),
-(6, 3),
-(17, 3),
-(5, 4),
-(8, 5),
-(7, 6),
-(3, 7),
-(1, 8),
-(8, 8),
-(1, 9),
-(9, 9),
-(10, 10),
-(13, 11),
-(11, 12),
-(12, 13),
-(1, 14),
-(2, 14),
-(3, 14),
-(4, 14),
-(5, 14),
-(6, 14),
-(7, 14),
-(8, 14),
-(9, 14),
-(10, 14),
-(11, 14),
-(12, 14),
-(13, 14),
-(15, 14),
-(16, 14),
-(17, 14),
-(1, 15),
-(4, 15),
-(5, 15),
-(6, 15),
-(9, 15),
-(10, 15),
-(11, 15),
-(12, 15),
-(13, 15),
-(14, 15),
-(15, 16),
-(17, 16),
-(15, 17),
-(11, 18),
-(16, 18);
 
 --
 -- Indexes for dumped tables
