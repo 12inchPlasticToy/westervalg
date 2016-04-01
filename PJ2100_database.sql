@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:3307
--- Generation Time: Mar 30, 2016 at 10:50 AM
+-- Generation Time: Apr 01, 2016 at 09:07 AM
 -- Server version: 5.5.41-log
--- PHP Version: 7.0.0
+-- PHP Version: 5.6.13
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -32,7 +32,7 @@ DROP TABLE IF EXISTS `kategori`;
 CREATE TABLE IF NOT EXISTS `kategori` (
 `ID` int(11) NOT NULL,
   `Kategori` varchar(255) NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=19 ;
 
 --
 -- Dumping data for table `kategori`
@@ -42,17 +42,20 @@ INSERT INTO `kategori` (`ID`, `Kategori`) VALUES
 (5, 'Baren'),
 (12, 'Bowling'),
 (4, 'Brett- og kortspill'),
-(10, 'Bøker'),
 (8, 'Fester'),
 (9, 'Film'),
 (15, 'For ansatte'),
 (14, 'For studenter'),
+(13, 'Friluftsliv'),
 (1, 'Gaming'),
 (7, 'Gründervirksomhet'),
+(16, 'Improvisasjon'),
 (2, 'IT'),
 (11, 'Kunst'),
 (3, 'Musikk'),
-(13, 'Utflukter'),
+(10, 'Poesi'),
+(18, 'Sport'),
+(17, 'Teater'),
 (6, 'Utvikling');
 
 -- --------------------------------------------------------
@@ -65,7 +68,7 @@ DROP TABLE IF EXISTS `utvalg`;
 CREATE TABLE IF NOT EXISTS `utvalg` (
 `ID` int(11) NOT NULL,
   `Navn` varchar(255) NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=15 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=18 ;
 
 --
 -- Dumping data for table `utvalg`
@@ -74,17 +77,20 @@ CREATE TABLE IF NOT EXISTS `utvalg` (
 INSERT INTO `utvalg` (`ID`, `Navn`) VALUES
 (8, '#fuBar'),
 (14, 'Ansattutvalget'),
-(10, 'Bokutvalget'),
 (11, 'Bowlingutvalget'),
-(9, 'Filmutvalget'),
 (5, 'Foreningen for spillkultur'),
+(12, 'Friluftsutvalget'),
 (3, 'Gründerutvalget'),
 (13, 'Kunstutvalget'),
 (4, 'Kvinner i IT'),
 (6, 'Musikkutvalget'),
+(9, 'Netflix&Chill'),
+(10, 'Poesiutvalget'),
 (2, 'Prosjektutvalget for spill'),
 (1, 'Sosialutvalget'),
-(12, 'Utfluktsutvalget'),
+(17, 'SoulTrain utvalget'),
+(16, 'StayFit utvalget'),
+(15, 'Teater og skuespill utvalget'),
 (7, 'Utviklingsutvalget');
 
 -- --------------------------------------------------------
@@ -109,7 +115,7 @@ INSERT INTO `utvalg_kategori` (`id_utvalg`, `id_kategori`) VALUES
 (4, 2),
 (7, 2),
 (6, 3),
-(12, 3),
+(17, 3),
 (5, 4),
 (8, 5),
 (7, 6),
@@ -118,18 +124,41 @@ INSERT INTO `utvalg_kategori` (`id_utvalg`, `id_kategori`) VALUES
 (8, 8),
 (1, 9),
 (9, 9),
-(12, 9),
 (10, 10),
-(12, 11),
 (13, 11),
 (11, 12),
-(12, 12),
-(2, 13),
-(4, 13),
-(11, 13),
 (12, 13),
-(13, 13),
-(14, 15);
+(1, 14),
+(2, 14),
+(3, 14),
+(4, 14),
+(5, 14),
+(6, 14),
+(7, 14),
+(8, 14),
+(9, 14),
+(10, 14),
+(11, 14),
+(12, 14),
+(13, 14),
+(15, 14),
+(16, 14),
+(17, 14),
+(1, 15),
+(4, 15),
+(5, 15),
+(6, 15),
+(9, 15),
+(10, 15),
+(11, 15),
+(12, 15),
+(13, 15),
+(14, 15),
+(15, 16),
+(17, 16),
+(15, 17),
+(11, 18),
+(16, 18);
 
 --
 -- Indexes for dumped tables
@@ -161,12 +190,12 @@ ALTER TABLE `utvalg_kategori`
 -- AUTO_INCREMENT for table `kategori`
 --
 ALTER TABLE `kategori`
-MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=16;
+MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=19;
 --
 -- AUTO_INCREMENT for table `utvalg`
 --
 ALTER TABLE `utvalg`
-MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=15;
+MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=18;
 --
 -- Constraints for dumped tables
 --
