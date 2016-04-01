@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <div id="header">
     <img src="images/CK32.jpg" alt="Header background">
     <br>
