@@ -22,7 +22,6 @@
                 $themes = array('Baren',
                                 'Bowling',
                                 'Brett- og kortspill',
-                                'Bøker',
                                 'Fester',
                                 'Film',
                                 'For ansatte',
@@ -32,8 +31,12 @@
                                 'IT',
                                 'Kunst', 
                                 'Musikk', 
-                                'Utflukter',
-                                'Utvikling');
+                                'Friluftsliv',
+                                'Utvikling',
+                                'Improvisasjon',
+                                'Poesi',
+                                'Sport',
+                                'Teater');
                 
                 foreach($themes as $category){
                     
