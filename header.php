@@ -1,5 +1,5 @@
 <div id="header">
-    <img src="images/CK32.jpg">
+    <img src="images/CK32.jpg" alt="Header background">
     <br>
     <a href="index.php">
         <div id="headLogo"><br><br><br>LOGO</div>
