@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <div id="header">
-    <img src="images/CK32.jpg" alt="">
+    <img src="images/CK32.jpg" alt="" id="bg">
     <br>
     <a href="index.php">
-        <div id="headLogo"><br><br><br>LOGO</div>
+        <div id="headLogo"><img src="images/Westervalg_stor_logo.png" height="150px"></div>
         </a>
-    <br>
-    <br>
     <div class="buttons">
-        <a href="utvalg.php"><div class="indexBtn utvalg">Utvalg</div></a>
-        <a href="faq.php"><div class="indexBtn home">FAQ</div></a>
-        <a href="about.php"><div class="indexBtn about">Om oss</div></a>
+        | <a href="utvalg.php"><div class="indexBtn utvalg">Utvalg</div></a>
+        | <a href="about.php"><div class="indexBtn about">Foreslåtte utvalg</div></a>
+        | <a href="faq.php"><div class="indexBtn home">FAQ</div></a>
+        |
     </div>
     <hr>
     <!--

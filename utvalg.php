@@ -40,7 +40,7 @@
                 
                 foreach($themes as $category){
                     
-                    echo "<input type=\"checkbox\" name=\"$category\" value=\"$category\">$category";
+                    echo "<input type=\"checkbox\" name=\"$category\" value=\"$category\" id=\"$category\"><label for=\"$category\">$category</label>";
                 }
                 ?>
                 <br>

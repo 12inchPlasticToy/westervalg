@@ -2,10 +2,16 @@
     position: relative;
     margin: auto;
     width: 100%;
+    height: 260px;
     overflow: hidden;
+    font-size: 1.6em;
 }
 
-#header img{
+a{
+    color: rgb(100,100,100);
+}
+
+#bg{
     position: absolute;
     width: 80%;
     height: auto;
@@ -15,20 +21,16 @@
 
 #headLogo{
     position: relative;
-    margin-left: 2%;
-    left: 10%;
-    width: 120px;
-    height: 120px;
-    background-color: rgb(255,50,50);
+    width: auto;
     text-align: center;
-    border-radius: 10%;
 }
 
 .buttons{
-    width: 315px;
-    height: 48px;
+    width: auto;
+    height: 55px;
     position: relative;
-    margin-left: 40%;
+    text-align: center;
+    background-color: rgb(255,255,255);
 }
 
 .faq{
@@ -45,34 +47,18 @@
 }
 
 .indexBtn{
-    margin: 0;
-    font-size: 1.6em;
+    margin: 10px;
+    padding: 0;
+    width: auto;
     font-family: sans-serif;
-    padding: 5px;
     display: inline-block;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-left: 1px solid rgb(50,50,50);
-    border-right: 1px solid rgb(50,50,50);
-    border-top: 1px solid rgb(50,50,50);
-    background-color: rgb(250,250,250);
-    -webkit-transition: background-color 0.2s;
-    -moz-transition: background-color 0.2s;
-    -ie-transition: background-color 0.2s;
-    -o-transition: background-color 0.2s;
-    transition: background-color 0.3s;
 }
 
 .indexBtn:hover{
-    background-color: rgb(220,220,220);
-}
-
-hr {
-    width: 70%;
-    margin-top: 0;
-    margin-bottom: 0;
+    font-weight: bold;
 }
 
 body.home div.home, body.utvalg div.utvalg, body.about div.about, body.utvalg div.finn{
-    background-color: rgb(255,170,170);
+    font-weight: bold;
+    text-decoration: underline;
 }
