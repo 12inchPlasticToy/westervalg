@@ -21,4 +21,6 @@ $password = "marcle15";
             die('Connect error ('.$link->connect_errno.') '.$link->connect_error);
 
         }
+
+$link->set_charset("utf8");
 ?>
