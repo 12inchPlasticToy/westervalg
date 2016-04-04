@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.2.7
+-- version 4.5.5.1
 -- http://www.phpmyadmin.net
 --
--- Host: localhost:3307
--- Generation Time: Apr 01, 2016 at 09:07 AM
--- Server version: 5.5.41-log
--- PHP Version: 5.6.13
+-- Host: 127.0.0.1
+-- Generation Time: Apr 04, 2016 at 03:04 PM
+-- Server version: 5.7.11
+-- PHP Version: 5.6.19
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -14,12 +14,12 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
+/*!40101 SET NAMES utf8mb4 */;
 
 --
 -- Database: `marcle15`
 --
-CREATE DATABASE IF NOT EXISTS `marcle15` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+CREATE DATABASE IF NOT EXISTS `marcle15` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `marcle15`;
 
 -- --------------------------------------------------------
@@ -29,10 +29,10 @@ USE `marcle15`;
 --
 
 DROP TABLE IF EXISTS `utvalg_kategori`;
-CREATE TABLE IF NOT EXISTS `utvalg_kategori` (
+CREATE TABLE `utvalg_kategori` (
   `id_utvalg` int(11) NOT NULL DEFAULT '0',
   `id_kategori` int(11) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `utvalg_kategori`
@@ -96,10 +96,10 @@ INSERT INTO `utvalg_kategori` (`id_utvalg`, `id_kategori`) VALUES
 --
 
 DROP TABLE IF EXISTS `kategori`;
-CREATE TABLE IF NOT EXISTS `kategori` (
-`ID` int(11) NOT NULL,
-  `Kategori` varchar(255) NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=19 ;
+CREATE TABLE `kategori` (
+  `ID` int(11) NOT NULL,
+  `Kategori` varchar(255) CHARACTER SET latin1 NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `kategori`
@@ -132,10 +132,10 @@ INSERT INTO `kategori` (`ID`, `Kategori`) VALUES
 --
 
 DROP TABLE IF EXISTS `utvalg`;
-CREATE TABLE IF NOT EXISTS `utvalg` (
-`ID` int(11) NOT NULL,
-  `Navn` varchar(255) NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=18 ;
+CREATE TABLE `utvalg` (
+  `ID` int(11) NOT NULL,
+  `Navn` varchar(255) CHARACTER SET latin1 NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `utvalg`
@@ -161,6 +161,7 @@ INSERT INTO `utvalg` (`ID`, `Navn`) VALUES
 (7, 'Utviklingsutvalget');
 
 
+
 --
 -- Indexes for dumped tables
 --
@@ -169,19 +170,22 @@ INSERT INTO `utvalg` (`ID`, `Navn`) VALUES
 -- Indexes for table `kategori`
 --
 ALTER TABLE `kategori`
- ADD PRIMARY KEY (`ID`), ADD UNIQUE KEY `Kategori` (`Kategori`);
+  ADD PRIMARY KEY (`ID`),
+  ADD UNIQUE KEY `Kategori` (`Kategori`);
 
 --
 -- Indexes for table `utvalg`
 --
 ALTER TABLE `utvalg`
- ADD PRIMARY KEY (`ID`), ADD UNIQUE KEY `Navn` (`Navn`);
+  ADD PRIMARY KEY (`ID`),
+  ADD UNIQUE KEY `Navn` (`Navn`);
 
 --
 -- Indexes for table `utvalg_kategori`
 --
 ALTER TABLE `utvalg_kategori`
- ADD PRIMARY KEY (`id_utvalg`,`id_kategori`), ADD KEY `id_kategori` (`id_kategori`);
+  ADD PRIMARY KEY (`id_utvalg`,`id_kategori`),
+  ADD KEY `id_kategori` (`id_kategori`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -191,12 +195,12 @@ ALTER TABLE `utvalg_kategori`
 -- AUTO_INCREMENT for table `kategori`
 --
 ALTER TABLE `kategori`
-MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=19;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 --
 -- AUTO_INCREMENT for table `utvalg`
 --
 ALTER TABLE `utvalg`
-MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=18;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 --
 -- Constraints for dumped tables
 --
@@ -205,8 +209,8 @@ MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=18;
 -- Constraints for table `utvalg_kategori`
 --
 ALTER TABLE `utvalg_kategori`
-ADD CONSTRAINT `utvalg_kategori_ibfk_1` FOREIGN KEY (`id_utvalg`) REFERENCES `utvalg` (`ID`),
-ADD CONSTRAINT `utvalg_kategori_ibfk_2` FOREIGN KEY (`id_kategori`) REFERENCES `kategori` (`ID`);
+  ADD CONSTRAINT `utvalg_kategori_ibfk_1` FOREIGN KEY (`id_utvalg`) REFERENCES `utvalg` (`ID`),
+  ADD CONSTRAINT `utvalg_kategori_ibfk_2` FOREIGN KEY (`id_kategori`) REFERENCES `kategori` (`ID`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
