@@ -10,7 +10,7 @@
         <br>        
         <!-- category selector START-->
         <div id="content">
-            <h2>Velg en kategori</h2>
+            <h2>Velg dine interesser</h2>
             
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="get">
                 <?php
