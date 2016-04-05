@@ -75,7 +75,7 @@ function visitkort($name, $desc, $cat, $idName){
     $idName = ($idName !== null)? $idName : "default";
     $pageURL = getPageURL($idName);    
     $logoURL = "logos/logo_".$idName.".png";
-    $logoAltText = $idName." logo";
+    $logoAltText = $name." logo";
     
     if(!file_exists($logoURL)){
         $logoURL = "logos/logo_default.png";
