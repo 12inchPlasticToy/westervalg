@@ -87,6 +87,17 @@ Prosjektutvalget for Spill har som mål å engasjere studenter til å bedrive sp
 Prosjektutvalget for Spill har som mål å engasjere studenter til å bedrive spillutvikling utenfor klass</p>
                     <p>TAGS TAGS TAGS TAGS</p>
                 </div>
+                <div class="visitkort" id="4">
+                    <div class="utvalgLogo">
+                        LOGO
+                    </div>
+                    <p>NAVN</p>
+                    <hr>
+                <p>Sitter du inne med en spillidé, men mangler folk? Mangler teamet ditt en brikke? Vil du bare finne folk å lage spill med? Da er dette utvalget for deg!
+
+Prosjektutvalget for Spill har som mål å engasjere studenter til å bedrive spillutvikling utenfor klass</p>
+                    <p>TAGS TAGS TAGS TAGS</p>
+                </div>
             </div>
         </div>
     </body>

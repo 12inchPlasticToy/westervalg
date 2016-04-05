@@ -62,9 +62,9 @@ a{
 
 #content{
     margin-top: 0;
-    margin-right: 10%;
+    margin-right: 15%;
     margin-bottom: 0;
-    margin-left: 10%;
+    margin-left: 15%;
     width: auto;
     font-family: sans-serif;
     color: rgb(50,50,50);
@@ -98,7 +98,7 @@ a{
     font-weight: bold;
 }
 
-body.home div.home, body.utvalg div.utvalg, body.about div.about, body.utvalg div.finn{
+body.home div.home, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg, body.utvalg div.finn{
     font-weight: bold;
     text-decoration: underline;
 }
@@ -123,13 +123,22 @@ body.home div.home, body.utvalg div.utvalg, body.about div.about, body.utvalg di
     width: 300px;
     height: 450px;
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 5px;
     border-width: 2px;
     float: left;
+    -webkit-transition: box-shadow 0.2s;
+}
+
+.visitkort:hover{
+    box-shadow: 0px 0px 15px rgb(100,100,100);
 }
 
 .utvalgLogo{
     width: auto;
     height: 120px;
     border-bottom-style: solid;
+}
+
+.visitkort hr{
+    width: 80%;
 }
