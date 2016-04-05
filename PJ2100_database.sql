@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:3307
--- Generation Time: Apr 05, 2016 at 08:59 AM
+-- Generation Time: Apr 05, 2016 at 09:08 AM
 -- Server version: 5.5.41-log
 -- PHP Version: 5.6.13
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 --
 -- Database: `marcle15`
 --
-CREATE DATABASE IF NOT EXISTS `marcle15` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+CREATE DATABASE IF NOT EXISTS `marcle15` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `marcle15`;
 
 -- --------------------------------------------------------
@@ -32,11 +32,12 @@ DROP TABLE IF EXISTS `utvalg_kategori`;
 CREATE TABLE IF NOT EXISTS `utvalg_kategori` (
   `id_utvalg` int(11) NOT NULL DEFAULT '0',
   `id_kategori` int(11) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `utvalg_kategori`
 --
+
 --
 -- Table structure for table `kategori`
 --
@@ -44,8 +45,8 @@ CREATE TABLE IF NOT EXISTS `utvalg_kategori` (
 DROP TABLE IF EXISTS `kategori`;
 CREATE TABLE IF NOT EXISTS `kategori` (
 `ID` int(11) NOT NULL,
-  `Kategori` varchar(255) NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=19 ;
+  `Kategori` varchar(255) CHARACTER SET latin1 NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=19 ;
 
 --
 -- Dumping data for table `kategori`
@@ -78,10 +79,10 @@ INSERT INTO `kategori` (`ID`, `Kategori`) VALUES
 DROP TABLE IF EXISTS `utvalg`;
 CREATE TABLE IF NOT EXISTS `utvalg` (
 `ID` int(11) NOT NULL,
-  `Navn` varchar(255) NOT NULL,
-  `Beskrivelse` varchar(255) NOT NULL,
-  `Tags` varchar(255) NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=18 ;
+  `Navn` varchar(255) CHARACTER SET latin1 NOT NULL,
+  `Beskrivelse` varchar(255) CHARACTER SET latin1 NOT NULL,
+  `Tags` varchar(255) CHARACTER SET latin1 NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=18 ;
 
 --
 -- Dumping data for table `utvalg`
@@ -107,7 +108,6 @@ INSERT INTO `utvalg` (`ID`, `Navn`, `Beskrivelse`, `Tags`) VALUES
 (17, 'SoulTrain utvalget', 'Digger du old school HipHop like mye som oss? Vi jammer til beats og rapper våre egne freestyle lyricser. Vi lager både egne beats i felleskap og chiller til de største HipHop sangene gjennom tidene. ', 'Musikk, improvisasjon, for studenter');
 
 -- --------------------------------------------------------
-
 
 INSERT INTO `utvalg_kategori` (`id_utvalg`, `id_kategori`) VALUES
 (2, 1),
