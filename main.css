@@ -98,7 +98,7 @@ a{
     font-weight: bold;
 }
 
-body.home div.home, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg, body.utvalg div.finn{
+body.home div.home, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg {
     font-weight: bold;
     text-decoration: underline;
 }
@@ -107,19 +107,17 @@ body.home div.home, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg, body.u
 
 .visitkortWrapper{
     position: relative;
-    width: 90%;
+    width: 95%;
     height: auto;
-    left: 5%;
-    border-style: dashed;
+    left: 2.5%;
     overflow: hidden;
 }
 
 .visitkort{
-    margin-top: 5%;
-    margin-right: 3%;
-    margin-left: 3%;
+    margin: 2%;
+    padding: 15px;
     background-color: rgb(250,250,250);
-    text-align: center;
+    text-align: left;
     width: 300px;
     height: 450px;
     border-style: solid;
@@ -130,7 +128,7 @@ body.home div.home, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg, body.u
 }
 
 .visitkort:hover{
-    box-shadow: 0px 0px 15px rgb(100,100,100);
+    box-shadow: 0px 0px 20px rgb(100,100,100);
 }
 
 .utvalgLogo{
@@ -141,4 +139,33 @@ body.home div.home, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg, body.u
 
 .visitkort hr{
     width: 80%;
+}
+
+.categoryBtn{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    float: inherit;
+    border: 2px solid;
+    border-radius: 5px;
+    -webkit-transform: background-color: rgb(100,200,200);
+}
+
+.categoryBtn input{
+    display: none;
+}
+
+.categoryBtn label{
+    display: inline-block;
+    padding: 8px;
+}
+
+.categoryBtn:hover{
+    background-color: rgb(255, 100, 100);
+}
+
+.categoryBtn input:checked + label{
+    background-color: rgb(100, 200, 100);
 }

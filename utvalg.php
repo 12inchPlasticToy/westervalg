@@ -20,7 +20,6 @@
                 If more database queries are allowed, could be populated dynamically.
                 **/
                 $themes = array('Baren',
-                                'Bowling',
                                 'Brett- og kortspill',
                                 'Fester',
                                 'Film',
@@ -40,7 +39,7 @@
                 
                 foreach($themes as $category){
                     
-                    echo "<input type=\"checkbox\" name=\"$category\" value=\"$category\" id=\"$category\"><label for=\"$category\">$category</label> &emsp; &emsp;";
+                    echo "<div class=\"categoryBtn\"><input type=\"checkbox\" name=\"$category\" value=\"$category\" id=\"$category\"><label for=\"$category\">$category</label></div>";
                 }
                 ?>
                 <br>
