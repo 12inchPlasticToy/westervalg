@@ -17,7 +17,7 @@
         </a>
     <div class="buttons">
         | <a href=<?php echo $path;?>utvalg.php><div class="indexBtn utvalg" id="utvalgBtn">Utvalg</div></a>
-        | <a href=<?php echo $path;?>about.php><div class="indexBtn about" id="fUtvalgBtn">Foreslåtte utvalg</div></a>
+        | <a href=<?php echo $path;?>foreslatte_utvalg.php><div class="indexBtn forUtvalg" id="fUtvalgBtn">Foreslåtte utvalg</div></a>
         | <a href=<?php echo $path;?>faq.php><div class="indexBtn home" id="faqBtn">FAQ</div></a>
         |
     </div>
