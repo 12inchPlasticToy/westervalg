@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<?php $path = "";
-//$path = "http://home.nith.no/~marcle15/"
+<?php 
+//$path = "";
+$path = "http://home.nith.no/~marcle15/"
 ?>
 <div id="header">
     <img src=<?php echo $path;?>images/CK32.jpg alt="" id="bg">
