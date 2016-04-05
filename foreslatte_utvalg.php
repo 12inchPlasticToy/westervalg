@@ -14,7 +14,7 @@
             <div class="visitkortWrapper">
                 <!-- "Thumbs up"-icon used here was made by Freepik from www.flaticon.com, is licensed by Creative Commons BY 3.0 CC 3.0 BY -->
                 <div class="visitkort_f_u">
-                    <p>REISEUTVALGET</p>
+                    <p class="name">REISEUTVALGET</p>
                     <hr>
                     <p>Et utvalg som arrangerer en eller flere reiser innen- eller utenlands i løpet av skoleåret.</p>
                     <p>Kontaktperson: Kalle Trulsson <br/> Epost: trukal14@student.westerdals.no</p>
@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="visitkort_f_u">
-                    <p>UTVALGET FOR BOKELSKERE</p>
+                    <p class="name">UTVALGET FOR BOKELSKERE</p>
                     <hr>
                     <p>Et utvalg som møtes for oss som elsker litteratur.
                         Vi velger bøker som vi alle leser over en bestemt periode,
@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="visitkort_f_u">
-                    <p>UTVALGET FOR FILM OG FOTO</p>
+                    <p class="name">UTVALGET FOR FILM OG FOTO</p>
                     <hr>
                     <p>Vi deler tips, bruker hverandre som modeller og statister,
                         og drar ut sammen for å finne kule steder å ta bilder og film.</p>
@@ -47,7 +47,7 @@
                     </div>
                 </div>
                 <div class="visitkort_f_u">
-                    <p>BAKEUTVALGET</p>
+                    <p class="name">BAKEUTVALGET</p>
                     <hr>
                     <p>Et utvalg som baker sammen og deler tips og triks for perfekt bakverk.
                         Vi kan også samles for å se på serier som "Hele Norge baker" o.l.</p>

@@ -46,6 +46,7 @@
                 }
                 ?>
                 <br>
+                <br>
                 <input type="submit" name="show" value="Vis valgte">
                 <input type="submit" name="show" value="Vis alle">
                 <input type="reset" value="Fjern valg">

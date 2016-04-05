@@ -119,7 +119,7 @@ body.home div.home, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg {
     background-color: rgb(250,250,250);
     text-align: left;
     width: 300px;
-    height: 450px;
+    height: 350px;
     border-style: solid;
     border-radius: 5px;
     border-width: 2px;
@@ -171,12 +171,18 @@ body.home div.home, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg {
     background-color: rgb(100, 200, 100);
 }
 
+.name{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
 .tags{
     position: absolute;
     bottom: 0%;
 }
 
-/* Foreslåtte utvalg visitkort start */
+/* Specific for cards in foreslåtte utvalg */
 
 .visitkort_f_u{
     margin: 2%;
@@ -184,7 +190,7 @@ body.home div.home, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg {
     background-color: rgb(250,250,250);
     text-align: left;
     width: 300px;
-    height: 450px;
+    height: 350px;
     border-style: solid;
     border-radius: 5px;
     border-width: 2px;
