@@ -1,14 +1,31 @@
+/* Header css start */
+
 #header{
     position: relative;
     margin: auto;
-    width: 100%;
+    width: auto;
     height: 260px;
     overflow: hidden;
     font-size: 1.6em;
 }
 
-a{
-    color: rgb(100,100,100);
+#headerTools{
+    font-family: sans-serif;
+    position: relative;
+    text-align: right;
+    right: 10%;
+}
+
+#westerdals{
+    font-size: 0.6em;
+}
+
+#smaller{
+    font-size: 0.6em;
+}
+
+#bigger{
+    font-size:0.9em;
 }
 
 #bg{
@@ -31,6 +48,12 @@ a{
     position: relative;
     text-align: center;
     background-color: rgb(255,255,255);
+}
+
+/* Header css end */
+
+a{
+    color: rgb(100,100,100);
 }
 
 .faq{
