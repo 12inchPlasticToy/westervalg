@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:3307
--- Generation Time: Apr 05, 2016 at 09:08 AM
+-- Generation Time: Apr 05, 2016 at 11:04 AM
 -- Server version: 5.5.41-log
 -- PHP Version: 5.6.13
 
@@ -23,10 +23,6 @@ CREATE DATABASE IF NOT EXISTS `marcle15` DEFAULT CHARACTER SET utf8 COLLATE utf8
 USE `marcle15`;
 
 -- --------------------------------------------------------
-
---
--- Table structure for table `utvalg_kategori`
---
 
 DROP TABLE IF EXISTS `utvalg_kategori`;
 CREATE TABLE IF NOT EXISTS `utvalg_kategori` (
@@ -89,25 +85,29 @@ CREATE TABLE IF NOT EXISTS `utvalg` (
 --
 
 INSERT INTO `utvalg` (`ID`, `Navn`, `Beskrivelse`, `Tags`) VALUES
-(1, 'Sosialutvalget', 'Et utvalg for de som er interesserte i å skape et mer sosialt miljø på skolen. Det er vi som står for fester, filmkvelder, sommer og juleavslutninger og andre sosiale aktiviteter.', 'Fester, film, for studenter, for ansatte'),
-(2, 'Prosjektutvalget for spill', 'Sitter du inne med en spillidé, og vil finne folk å lage spill med? Da er dette utvalget for deg! Prosjektutvalget for Spill har som mål å engasjere studenter til å bedrive spillutvikling utenfor klasserommet og på tvers av studieretningene på skolen.', 'Gaming, for studenter'),
-(3, 'Gründerutvalget', 'Utvalget er en plattform for å lære om gründermiljøet i Oslo og Norge, møte personer som har vært gjennom det før, og bli kjent med studenter som brenner for det samme.', 'Gründervirksomhet, for studenter'),
-(4, 'Kvinner i IT', 'Kvinner og IT er en forening for jenter som studerer IT på Westerdals Oslo ACT Campus Fjerdingen.', 'IT, for studenter, for ansatte'),
+(1, 'Sosialutvalget', 'Et utvalg for de som er interesserte i organisere fester, filmkvelder og andre sosiale aktiviteter.', 'Fester, film, for studenter, for ansatte'),
+(2, 'Prosjektutvalget for spill', 'Vi har som mål å engasjere studenter til å bedrive spillutvikling utenfor klasserommet og på tvers av studieretningene på skolen.', 'Gaming, for studenter'),
+(3, 'Gründerutvalget', 'Utvalget er en plattform for å lære om gründermiljøet i Oslo og Norge, og møte personer som har vært gjennom det før eller andre som vil komme i gang.', 'Gründervirksomhet, for studenter'),
+(4, 'Kvinner i IT', 'Kvinner og IT er en forening for jenter som studerer IT på Campus Fjerdingen.', 'IT, for studenter, for ansatte'),
 (5, 'Foreningen for spillkultur', 'Spill, LAN, D&D & more.', 'Gaming, brett- og kortspill, for studenter, for ansatte'),
-(6, 'Musikkutvalget', 'Musikkutvalget er et utvalg for å fremme musikk og fremførelse. Vi arrangerer events for å skape glede og felleskap rundt temaet musikk, og har tidligere arrangert open jam night og quiz.', 'Musikk, for studenter, for ansatte'),
+(6, 'Musikkutvalget', 'Musikkutvalget er et utvalg som arrangerer events for å skape glede og felleskap rundt musikk og fremførelse.', 'Musikk, for studenter, for ansatte'),
 (7, 'Utviklingsutvalget', 'Utviklingsutvalget er et utvalg som tar for seg programmering og design av apper, nettsider, programmer, spill og lignende.', 'IT, for studenter'),
 (8, '#fuBar', 'Studentpuben ved Westerdals.', 'Baren, fester, for studenter'),
-(9, 'Netflix&Chill', 'Fredag annenhver uke samles vi i auditoriet og ser filmer på prosjektoren. Hvilken film vi ser avgjøres under avstemming når vi samles. Både nye og gamle filmer er med i avstemmingen. Velkommen til en koselig kino opplevelse med medstudenter og ansatte =)', 'Film, for studenter, for ansatte'),
-(10, 'Poesiutvalget', 'Vær velkommen til poesiaften hver siste onsdag i måneden. Vi fremfører dikt og lytter til hverandres indre sjeler og kobles sammen av dyp poesi, en sann rens for hjerte og sjel. Bli med på en sjelfull aften. Velkommen skal du være.', 'Poesi, for studenter, for ansatte'),
-(11, 'Bowlingutvalget', 'Etter en lang skolemåned finnes det vel ikke noe kulere å gjøre enn å bli med på en bowlingturnering! En rå gjeng treffes en gang i måneden og konkurrerer om å bli Westerdals bowling champion! Har du et skjult bowlingtalent? Ta kontakt!', 'Sport, for studenter, for ansatte'),
-(12, 'Friluftsutvalget', 'Dette er et utvalg for både ansatte og studenter som er glad i skog og mark. Vi samles og går lange turer i felleskap, griller og koser oss. Superkoselig, superdigg og supergøy! Bli med :-D\r\n', 'Friluftsliv, for studenter, for ansatte'),
-(13, 'Kunstutvalget', 'Er du over gjennomsnittet interessert i kunst og har en indre Picasso som skriker etter å komme ut? Vi deler tips, triks og gir hverandre råd til hvordan å komme i bedre kontakt med vår indre kunstner.', 'Kunst, for studenter, for ansatte'),
-(14, 'Ansattutvalget', 'Utvalget for ansatte ved Westerdals der vi arrangerer sosiale sammenkomster utifra gruppemedlemmens ønsker. Tidligere har vi hatt Taco kvelder hos rektor og kinokvelder. Bli med på å styrke samholdet mellom ansatte!', 'For ansatte'),
+(9, 'Netflix&Chill', 'Velkommen til en koselig kinoopplevelse med medstudenter og ansatte =)', 'Film, for studenter, for ansatte'),
+(10, 'Poesiutvalget', 'Vi fremfører dikt og lytter til hverandres indre sjeler og kobles sammen av dyp poesi, en sann rens for hjerte og sjel.', 'Poesi, for studenter, for ansatte'),
+(11, 'Bowlingutvalget', 'En rå gjeng treffes en gang i måneden og konkurrerer om å bli Westerdals bowling champion!', 'Sport, for studenter, for ansatte'),
+(12, 'Friluftsutvalget', 'Vi samles og går lange turer i felleskap, griller og koser oss. Superkoselig, superdigg og supergøy!', 'Friluftsliv, for studenter, for ansatte'),
+(13, 'Kunstutvalget', 'Vi deler tips, triks og gir hverandre råd til hvordan å komme i bedre kontakt med vår indre kunstner.', 'Kunst, for studenter, for ansatte'),
+(14, 'Ansattutvalget', 'Utvalget for ansatte der vi arrangerer sosiale sammenkomster for å styrke samholdet mellom oss som jobber på Campus Fjerdingen.', 'For ansatte'),
 (15, 'Teater og skuespill utvalget', 'Improvisasjonsaften for ren moro og sosialisering for deg som har interesse for teater og skuespill. ', 'Improvisasjon, teater, for studenter'),
-(16, 'StayFit utvalget', 'En god treningsplan er bevist å ha positiv effekt på studier! Er du effektiv i gymmen, er det sannsynlig at studieinnsatsen er likedan. Så Stay Fit! Vi møtes, mingler, finner treningspartnere etter fitnessmål og deler kostholdstips og treningsråd.', 'Sport, for studenter'),
-(17, 'SoulTrain utvalget', 'Digger du old school HipHop like mye som oss? Vi jammer til beats og rapper våre egne freestyle lyricser. Vi lager både egne beats i felleskap og chiller til de største HipHop sangene gjennom tidene. ', 'Musikk, improvisasjon, for studenter');
+(16, 'StayFit utvalget', 'Vi møtes, mingler, finner treningspartnere etter fitnessmål og deler kostholdstips og treningsråd.', 'Sport, for studenter'),
+(17, 'SoulTrain utvalget', 'Vi lager både egne beats og lyrics, og chiller til de største HipHop sangene gjennom tidene. ', 'Musikk, improvisasjon, for studenter');
 
 -- --------------------------------------------------------
+
+--
+-- Table structure for table `utvalg_kategori`
+--
 
 INSERT INTO `utvalg_kategori` (`id_utvalg`, `id_kategori`) VALUES
 (2, 1),
