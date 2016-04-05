@@ -67,6 +67,7 @@ a{
     margin-left: 10%;
     width: auto;
     font-family: sans-serif;
+    color: rgb(50,50,50);
 }
 
 #utvalgBtn{
@@ -100,4 +101,32 @@ a{
 body.home div.home, body.utvalg div.utvalg, body.about div.about, body.utvalg div.finn{
     font-weight: bold;
     text-decoration: underline;
+}
+
+/* Utvalg visitkort start */
+
+.visitkortWrapper{
+    position: relative;
+    width: 90%;
+    height: auto;
+    left: 5%;
+    border-style: dashed;
+    overflow: hidden;
+}
+
+.visitkort{
+    margin-top: 5%;
+    margin-right: 3%;
+    margin-left: 3%;
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    border-style: dotted;
+    float: left;
+}
+
+.utvalgLogo{
+    width: 100%;
+    height: 120px;
+    border-style: groove;
 }
