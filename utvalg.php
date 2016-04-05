@@ -13,12 +13,12 @@
             <h2>Velg en kategori</h2>
             
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="get">
-            
                 <?php
                 /**
                 Hardcoded copy of all categories from database table "kategori".
                 If more database queries are allowed, could be populated dynamically.
                 **/
+                $i = 1;
                 $themes = array('Baren',
                                 'Brett- og kortspill',
                                 'Fester',
@@ -39,12 +39,17 @@
                 
                 foreach($themes as $category){
                     
+/*
                     echo "<div class=\"categoryBtn\"><input type=\"checkbox\" name=\"$category\" value=\"$category\" id=\"$category\"><label for=\"$category\">$category</label></div>";
+=======*/
+                    echo "<div class=\"categoryBtn\"><input type=\"checkbox\" name=\"cat_$i\" value=\"$category\" id=\"$i\"><label for=\"$i\">$category</label></div>";
+                    $i++;
                 }
                 ?>
                 <br>
-                <input type="submit" value="Søk">
-                <input type="reset" value="Vis alle">
+                <input type="submit" name="show" value="Vis valgte">
+                <input type="submit" name="show" value="Vis alle">
+                <input type="reset" value="Fjern valg">
             </form>
             
             <!-- category selector END-->
