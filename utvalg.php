@@ -31,7 +31,6 @@
                                 'Kunst', 
                                 'Musikk', 
                                 'Friluftsliv',
-                                'Utvikling',
                                 'Improvisasjon',
                                 'Poesi',
                                 'Sport',

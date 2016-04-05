@@ -69,7 +69,9 @@ function visitkort($name, $desc, $cat){
             <p>'.$name.'</p>
                     <hr>
                 <p>'.$desc.'</p>
-                <p>'.$cat.'</p>
+                <div class="tags">
+                    <p>Kategorier: '.$cat.'</p>
+                </div>
                     
                 </div>';
 }

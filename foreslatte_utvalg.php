@@ -13,7 +13,7 @@
             <p>Hvis det er noen du kunne tenke deg å ta del i kan du gi dem en tommel opp.</p>
             <div class="visitkortWrapper">
                 <!-- "Thumbs up"-icon used here was made by Freepik from www.flaticon.com, is licensed by Creative Commons BY 3.0 CC 3.0 BY -->
-                <div class="visitkort">
+                <div class="visitkort_f_u">
                     <p>REISEUTVALGET</p>
                     <hr>
                     <p>Et utvalg som arrangerer en eller flere reiser innen- eller utenlands i løpet av skoleåret.</p>
@@ -23,7 +23,7 @@
                         <p>8 personer er interessert i dette utvalget.</p>
                     </div>
                 </div>
-                <div class="visitkort">
+                <div class="visitkort_f_u">
                     <p>UTVALGET FOR BOKELSKERE</p>
                     <hr>
                     <p>Et utvalg som møtes for oss som elsker litteratur.
@@ -35,7 +35,7 @@
                         <p>11 personer er interessert i dette utvalget.</p>
                     </div>
                 </div>
-                <div class="visitkort">
+                <div class="visitkort_f_u">
                     <p>UTVALGET FOR FILM OG FOTO</p>
                     <hr>
                     <p>Vi deler tips, bruker hverandre som modeller og statister,
@@ -46,7 +46,7 @@
                         <p>5 personer er interessert i dette utvalget.</p>
                     </div>
                 </div>
-                <div class="visitkort">
+                <div class="visitkort_f_u">
                     <p>BAKEUTVALGET</p>
                     <hr>
                     <p>Et utvalg som baker sammen og deler tips og triks for perfekt bakverk.
