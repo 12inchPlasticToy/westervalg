@@ -61,19 +61,19 @@ $stmt->bind_result($navn, $beskrivelse, $tags);
 Function that creates the display for "visitkort"
 */
 function visitkort($name, $desc, $cat){
-    echo '<div class="visitkort">
+    echo '<a href="utvalg/pus.php"><div class="visitkort">
             <div class="utvalgLogo">
                 <img src=logos/default.png alt="default logo">
 
             </div>
-            <p>'.$name.'</p>
+            <p class="name">'.$name.'</p>
                     <hr>
                 <p>'.$desc.'</p>
                 <div class="tags">
                     <p>Kategorier: '.$cat.'</p>
                 </div>
                     
-                </div>';
+                </div></a>';
 }
 
 while($stmt->fetch()){

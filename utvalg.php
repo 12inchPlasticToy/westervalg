@@ -51,7 +51,6 @@
                 <input type="submit" name="show" value="Vis alle">
                 <input type="reset" value="Fjern valg">
             </form>
-            
             <!-- category selector END-->
             
             <!-- display the results according to checked buttons -->
