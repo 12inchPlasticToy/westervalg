@@ -8,10 +8,25 @@ include "db_connect.php";
  check if any category is selected; by default, every utvalg
  should show
  */
+
+//echo var_dump(count($_GET));
 if(empty($_GET)){
 	$categories = $themes;
-}else{
-	$categories = array_values($_GET);
+}
+else{
+    switch($_GET['show']){
+        case 'Vis valgte':
+            if(count($_GET)>1){
+                $categories = array_values($_GET);                        
+            } 
+            else{
+                die("<h3>Ingen kategorier valgt</h3>");
+            }
+            break;
+        case 'Vis alle':
+            $categories = $themes;        
+            break;
+    }
 }
 
 
@@ -41,6 +56,10 @@ $stmt->execute();
 
 $stmt->bind_result($navn, $beskrivelse, $tags);
 
+
+/*
+Function that creates the display for "visitkort"
+*/
 function visitkort($name, $desc, $cat){
     echo '<div class="visitkort">
             <div class="utvalgLogo">
@@ -55,16 +74,6 @@ function visitkort($name, $desc, $cat){
                 </div>';
 }
 
-
-/*
-Display the result as a simple table for prototype version
-
-echo "<table border=\"2\"><tr><th>UTVALG</th></tr>";
-while($stmt->fetch()){
-    echo "<tr><td>".$utvalg."</td></tr>";
-echo "</table>";
-}
-*/
 while($stmt->fetch()){
     visitkort($navn, $beskrivelse, $tags);
 }
