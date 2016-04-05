@@ -6,9 +6,9 @@
         <div id="headLogo"><img src="images/Westervalg_stor_logo.png" height="150px"></div>
         </a>
     <div class="buttons">
-        | <a href="utvalg.php"><div class="indexBtn utvalg">Utvalg</div></a>
-        | <a href="about.php"><div class="indexBtn about">Foreslåtte utvalg</div></a>
-        | <a href="faq.php"><div class="indexBtn home">FAQ</div></a>
+        | <a href="utvalg.php"><div class="indexBtn utvalg" id="utvalgBtn">Utvalg</div></a>
+        | <a href="about.php"><div class="indexBtn about" id="fUtvalgBtn">Foreslåtte utvalg</div></a>
+        | <a href="faq.php"><div class="indexBtn home" id="faqBtn">FAQ</div></a>
         |
     </div>
     <hr>

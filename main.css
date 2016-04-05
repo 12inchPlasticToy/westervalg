@@ -46,10 +46,26 @@ a{
     font-family: sans-serif;
 }
 
-.indexBtn{
+#utvalgBtn{
     margin: 10px;
     padding: 0;
-    width: auto;
+    width: 100px;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+#fUtvalgBtn{
+    margin: 10px;
+    padding: 0;
+    width: 260px;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+#faqBtn{
+    margin: 10px;
+    padding: 0;
+    width: 100px;
     font-family: sans-serif;
     display: inline-block;
 }
