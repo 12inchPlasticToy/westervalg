@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="main.css">
     </head>
-    <body class="about">
+    <body class="forUtvalg">
         <?php include "header.php"; ?>
 
         <div id="content">
