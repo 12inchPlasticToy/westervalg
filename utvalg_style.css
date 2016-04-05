@@ -1,0 +1,43 @@
+#content{
+    margin-top: 4%;
+    position: relative;
+}
+#content .logo{
+    text-align: center;
+}
+.utvalg{
+    text-align: center;
+}
+#utvalgContent{
+    margin-top: 0;
+    margin-right: 40%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    width: auto;
+    font-family: sans-serif;
+    border-right: solid;
+    text-align: left;
+    border-right-color: lightgray;
+    padding: 20px;
+}
+.logo{
+    height: auto;
+    display: inline-block;
+}
+.logo img{
+    max-width: 500px;
+}
+#contactBox{
+    margin-top: -29.3%;
+    margin-left: 62%;
+    font-family: sans-serif; 
+    width: 295px;
+    height: auto;
+    padding: 15px;
+    background-color: lightgrey;
+    text-align: left;
+}
+#shortTitle{
+    float: right;
+    
+}
