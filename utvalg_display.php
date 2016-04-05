@@ -56,28 +56,51 @@ $stmt->execute();
 
 $stmt->bind_result($navn, $beskrivelse, $tags);
 
+/*
+Return the URL for the given utvalg info page.
+If no page has been created for this utvalg, return the URL to a
+page sending back to the utvalg search page.
+*/
+function getPageURL($pageNameToMatch){
+    $pageURL = "utvalg/".$pageNameToMatch.".php";
+    return (file_exists($pageURL)) ? $pageURL : "utvalg/default.php";
+}
+
 
 /*
-Function that creates the display for "visitkort"
+Creates the layout for "visitkort" and populates it with 
+the corresponding variables
 */
-function visitkort($name, $desc, $cat){
-    echo '<a href="utvalg/pus.php"><div class="visitkort">
+function visitkort($name, $desc, $cat, $idName){
+    $idName = ($idName !== null)? $idName : "default";
+    $pageURL = getPageURL($idName);    
+    $logoURL = "logos/logo_".$idName.".png";
+    $logoAltText = $idName." logo";
+    
+    if(!file_exists($logoURL)){
+        $logoURL = "logos/logo_default.png";
+        $logoAltText = "default logo";
+    }
+    
+    echo '
+    <a href="'.$pageURL.'">
+        <div class="visitkort">
             <div class="utvalgLogo">
-                <img src=logos/default.png alt="default logo">
-
+                <img src="'.$logoURL.'" alt="'.$logoAltText.'">
             </div>
             <p class="name">'.$name.'</p>
-                    <hr>
-                <p>'.$desc.'</p>
-                <div class="tags">
-                    <p>Kategorier: '.$cat.'</p>
-                </div>
-                    
-                </div></a>';
+            <hr>
+            <p>'.$desc.'</p>
+            <div class="tags">
+                <p>Kategorier: '.$cat.'</p>
+            </div>
+        </div>
+    </a>
+    ';
 }
 
 while($stmt->fetch()){
-    visitkort($navn, $beskrivelse, $tags);
+    visitkort($navn, $beskrivelse, $tags, "banana");
 }
 
 $stmt->close();
