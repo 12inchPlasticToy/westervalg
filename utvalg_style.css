@@ -26,9 +26,10 @@
 }
 .logo img{
     max-width: 500px;
+    max-height: 300px;
 }
 #contactBox{
-    margin-top: -29.3%;
+    margin-top: -42%;
     margin-left: 62%;
     font-family: sans-serif; 
     width: 295px;
@@ -36,8 +37,4 @@
     padding: 15px;
     background-color: lightgrey;
     text-align: left;
-}
-#shortTitle{
-    float: right;
-    
 }
