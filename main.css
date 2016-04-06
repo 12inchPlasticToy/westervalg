@@ -127,6 +127,8 @@ body.faq div.faq, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg {
     float: left;
     position: relative;
     -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    -ms-transition: box-shadow 0.2s;
 }
 
 .visitkort:hover{
@@ -160,7 +162,9 @@ body.faq div.faq, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg {
     float: inherit;
     border: 2px solid;
     border-radius: 5px;
-    -webkit-transform: background-color: rgb(100,200,200);
+    -webkit-transition: background-color rgb(100,200,200);
+    -ms-transition: background-color rgb(100,200,200);
+    -moz-transition: background-color rgb(100,200,200);
 }
 
 .categoryBtn input{
@@ -206,6 +210,8 @@ body.faq div.faq, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg {
     float: left;
     position: relative;
     -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    -ms-transition: box-shadow 0.2s;
 }
 
 .votes{
