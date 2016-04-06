@@ -60,24 +60,6 @@ ul a:visited{
     color: rgb(146, 102, 155);
 }
 
-.faq a:visited{
-    color: rgb(146, 102, 155);
-}
-
-#faq{
-    margin:auto;
-    padding: 20px;
-    width: 40%;
-    font-family: sans-serif;
-    color: rgb(50,50,50);
-    text-align: center;
-    background-color: rgb(250,250,250);
-}
-
-#faq hr{
-    width: 60%;
-}
-
 #content{
     margin-top: 0;
     margin-right: 15%;
@@ -243,4 +225,39 @@ body.faq div.faq, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg {
 
 .votes input{
     margin-left: 39%;
+}
+
+/* FAQ start */
+
+#faq a:visited{
+    color: rgb(146, 102, 155);
+}
+
+#faq{
+    margin:auto;
+    padding: 20px;
+    width: 40%;
+    font-family: sans-serif;
+    color: rgb(50,50,50);
+    background-color: rgb(250,250,250);
+    text-align: center;
+}
+
+#faq hr{
+    width: 60%;
+}
+
+.question{
+    font-weight: bold;
+    padding-top: 30px;
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.answer{
+    padding-bottom: 30px;
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 50px;
 }
