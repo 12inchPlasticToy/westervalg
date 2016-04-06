@@ -27,7 +27,7 @@ define("PATH",
     <div class="buttons">
         | <a href=<?php echo PATH;?>utvalg.php><div class="indexBtn utvalg" id="utvalgBtn">Utvalg</div></a>
         | <a href=<?php echo PATH;?>foreslatte_utvalg.php><div class="indexBtn forUtvalg" id="fUtvalgBtn">Foreslåtte utvalg</div></a>
-        | <a href=<?php echo PATH;?>faq.php><div class="indexBtn home" id="faqBtn">FAQ</div></a>
+        | <a href=<?php echo PATH;?>faq.php><div class="indexBtn faq" id="faqBtn">FAQ</div></a>
         |
     </div>
 </div>
