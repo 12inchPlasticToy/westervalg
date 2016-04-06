@@ -129,13 +129,21 @@ body.home div.home, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg {
 }
 
 .visitkort:hover{
-    box-shadow: 0px 0px 20px rgb(100,100,100);
+    box-shadow: 0px 0px 25px rgb(97,175,200);
 }
 
 .utvalgLogo{
     width: auto;
     height: 120px;
     border-bottom-style: solid;
+    overflow: hidden;
+    text-align: center;
+}
+
+.utvalgLogo img{
+    max-height: 110px;
+    max-width: 90%;
+    margin: auto;
 }
 
 .visitkort hr{
