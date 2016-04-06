@@ -20,7 +20,7 @@
                     <p>Kontaktperson: Kalle Trulsson <br/> Epost: trukal14@student.westerdals.no</p>
                     <div class = "votes">
                         <input type="image" src="images/sign.png">
-                        <p>8 personer er interessert i dette utvalget.</p>
+                        <p>Antall interesserte: <b>8</b></p>
                     </div>
                 </div>
                 <div class="visitkort_f_u">
@@ -32,7 +32,7 @@
                     <p>Kontaktperson: Anja Alexandra Skog<br/> Epost: skoanj15@student.westerdals.no</p>
                     <div class = "votes">
                         <input type="image" src="images/sign.png">
-                        <p>11 personer er interessert i dette utvalget.</p>
+                        <p>Antall interesserte: <b>11</b></p>
                     </div>
                 </div>
                 <div class="visitkort_f_u">
@@ -43,7 +43,7 @@
                     <p>Kontaktperson: Maja Nielsen <br/> Epost: niemaj14@student.westerdals.no</p>
                     <div class = "votes">
                         <input type="image" src="images/sign.png">
-                        <p>5 personer er interessert i dette utvalget.</p>
+                        <p>Antall interesserte: <b>5</b></p>
                     </div>
                 </div>
                 <div class="visitkort_f_u">
@@ -54,7 +54,7 @@
                     <p>Kontaktperson: Gustav Lund <br/> Epost: lungus13@student.westerdals.no</p>
                     <div class = "votes">
                         <input type="image" src="images/sign.png">
-                        <p>8 personer er interessert i dette utvalget.</p>
+                        <p>Antall interesserte: <b>8</b></p>
                     </div>
                 </div>
             </div>
