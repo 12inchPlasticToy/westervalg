@@ -10,12 +10,11 @@
         <?php include "../header.php"; ?>
     <div id="content" class="utvalg">
         
+    <div id="utvalgContent">
         <div class="logo">
             <img src="../logos/logo_pus.png" alt="logo">
         </div>
-        
-    <div id="utvalgContent">
-        <h1>Prosjektutvalget for spill<span id="shortTitle">PUS</span></h1>
+        <h1>Prosjektutvalget for spill</h1>
         <p>Sitter du inne med en spillidé, men mangler folk? Mangler teamet ditt en brikke? Vil du bare finne folk å lage spill med? Da er dette utvalget for deg!</p>
 
         <p>Prosjektutvalget for Spill har som mål å engasjere studenter til å bedrive spillutvikling utenfor klasserommet og på tvers av studieretningene på NITH.
@@ -35,7 +34,8 @@
         
         <div id="tagBox">
             <h4>Tagger</h4>
-            <p>Interesse, interesse, interesse</p>
+            <a href="http://localhost/pj2100-15-gruppe-22/utvalg.php?cat_7=Gaming&show=Vis+valgte">Gaming,</a>
+            <a href="http://localhost/pj2100-15-gruppe-22/utvalg.php?cat_6=For+studenter&show=Vis+valgte"> for studenter</a>
         </div>
     </div>
     </div>
