@@ -5,10 +5,19 @@ include "db_connect.php";
 
 
 /*
+Quick function to print error messages properly
+*/
+function wrongURL($message){
+    echo "<h3>$message</h3>";
+                echo "</div></div>";
+                include "footer.php";
+                die();
+}
+
+/*
  check if any category is selected; by default, every utvalg
  should show
  */
-
 
 if(empty($_GET)){
 	$categories = $themes;
@@ -20,15 +29,14 @@ else{
                 $categories = array_values($_GET);                        
             } 
             else{
-                echo "<h3>Ingen kategorier valgt</h3>";
-                echo "</div></div>";
-                include "footer.php";
-                die();
+                wrongURL("Ingen kategorier valgt");
             }
             break;
         case 'Vis alle':
             $categories = $themes;        
             break;
+        default:
+            wrongURL("Denne siden eksisterer ikke");
     }
 }
 
@@ -76,16 +84,14 @@ Creates the layout for "visitkort" and populates it with
 the corresponding variables
 */
 function visitkort($name, $desc, $cat, $idName){
-    $idName = ($idName !== null)? $idName : "default";
-    $pageURL = getPageURL($idName);    
-    $logoURL = "logos/logo_".$idName.".png";
+    $id = ($idName !== null)? $idName : "default";
+    $pageURL = getPageURL($id);    
+    $logoURL = "logos/logo_".$id.".png";
     $logoAltText = $name." logo";
-    
     if(!file_exists($logoURL)){
         $logoURL = "logos/logo_default.png";
         $logoAltText = "default logo";
     }
-    
     echo '
     <a href="'.$pageURL.'">
         <div class="visitkort">
