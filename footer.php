@@ -5,14 +5,16 @@
 -->
         <div class="footer">
             <nav>
-              <ul>
-                  <div id="logo"><img src="<?php echo PATH;?>images/Westervalg_stor_logo.png" alt="logo"></div>
-                  <div id="info">
-                 <li><a href="http://www.vg.no">->RAPPORTER FEIL</a></li>
-                 <li><a href="http://www.vg.no">->SITEMAP</a></li>         
-                 <li><a href="http://www.vg.no">->KONTAKT</a></li> 
-                      </div>
-              </ul>
+                <ul>
+                    <div id="logo">
+                        <img src="<?php echo PATH;?>images/Westervalg_stor_logo.png" alt="logo">
+                    </div>
+                    <div id="info">
+                        <li><a href="http://www.vg.no">->RAPPORTER FEIL</a></li>
+                        <li><a href="http://www.vg.no">->SITEMAP</a></li>         
+                        <li><a href="http://www.vg.no">->KONTAKT</a></li> 
+                    </div>
+                </ul>
             </nav>
         </div>
 <!--

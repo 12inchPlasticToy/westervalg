@@ -14,5 +14,6 @@
         
         <p>Det eneste vi trenger er navnet på utvalget, en kort beskrivelse av utvalget (max 200 tegn) og din kontaktinformasjon. Vi legger da ut forslaget ditt under foreslåtte utvalg for å sjekke hvor stor interesse det finnes for ditt utvalg.</p>
     </div>
+        <?php include "footer.php"; ?>
     </body>
 </html>
