@@ -16,12 +16,12 @@
     left: 20%;   
     display: inline-block;
     float: left;
-    border-style: dashed;
+    text-align: center;
 }
 
 #info li {
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .footer nav ul li {
