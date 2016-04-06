@@ -12,7 +12,7 @@
         
     <div id="utvalgContent">
         <div class="logo">
-            <img src="../logos/logo_pus.png" alt="logo">
+            <img src="../logos/logo_pus.png" alt="prosjektutvalget for spill logo">
             <h1>Prosjektutvalget for spill</h1>
         </div>
         <div>
