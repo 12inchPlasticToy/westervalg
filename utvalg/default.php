@@ -13,5 +13,6 @@
         <p>Websiden du leter etter er ikke satt opp enda</p>
         <p><a href="../utvalg.php">Trykk her for å komme tilbake til utvalgsøk.</a></p>
     </div>
+        <?php include "../footer.php"; ?>
     </body>
 </html>

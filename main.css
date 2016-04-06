@@ -262,3 +262,55 @@ body.faq div.faq, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg {
     margin-right: 50px;
     margin-left: 50px;
 }
+/* FAQ end */ 
+
+/*---footer start---*/
+
+.footer {
+    width: 80%;
+    margin-left: 10%;
+    height: 40px;
+    background-color: rgb(232,232,232);
+    padding: 20px 0px;
+    bottom: 0;
+}
+
+#info {
+    position: relative;
+    width: 60%;
+    left: 20%;   
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+#info li {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.footer nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.footer nav ul li a {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(74,74,74);
+}
+
+#logo {
+    display: inline-block;
+    float: left;
+}
+
+#logo img {
+    position: relative;
+    max-width: 135px;
+    left: 20px;
+    top: -25px;
+}
+
+/*---footer end---*/

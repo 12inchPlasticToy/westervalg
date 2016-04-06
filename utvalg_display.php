@@ -20,7 +20,10 @@ else{
                 $categories = array_values($_GET);                        
             } 
             else{
-                die("<h3>Ingen kategorier valgt</h3>");
+                echo "<h3>Ingen kategorier valgt</h3>";
+                echo "</div></div>";
+                include "footer.php";
+                die();
             }
             break;
         case 'Vis alle':
