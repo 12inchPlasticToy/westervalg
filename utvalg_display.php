@@ -38,7 +38,7 @@ to fit in the SQL query
 $categories = "'".implode("', '", $categories)."'";
 
 $sql= 
-    "SELECT Navn, Beskrivelse, Tags FROM utvalg
+    "SELECT Navn, Beskrivelse, Tags, idnavn FROM utvalg
     WHERE ID IN ( 
         SELECT id_utvalg FROM utvalg_kategori AS u_k 
         JOIN kategori AS k ON u_k.id_kategori = k.ID 
@@ -54,7 +54,7 @@ if($stmt === false){
 }
 $stmt->execute();
 
-$stmt->bind_result($navn, $beskrivelse, $tags);
+$stmt->bind_result($navn, $beskrivelse, $tags, $idnavn);
 
 /*
 Return the URL for the given utvalg info page.
@@ -100,7 +100,7 @@ function visitkort($name, $desc, $cat, $idName){
 }
 
 while($stmt->fetch()){
-    visitkort($navn, $beskrivelse, $tags, "banana");
+    visitkort($navn, $beskrivelse, $tags, $idnavn);
 }
 
 $stmt->close();

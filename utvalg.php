@@ -37,12 +37,9 @@
                                 'Teater');
                 
                 foreach($themes as $category){
-                    
-/*
-                    echo "<div class=\"categoryBtn\"><input type=\"checkbox\" name=\"$category\" value=\"$category\" id=\"$category\"><label for=\"$category\">$category</label></div>";
-=======*/
-                    echo "<div class=\"categoryBtn\"><input type=\"checkbox\" name=\"cat_$i\" value=\"$category\" id=\"$i\"><label for=\"$i\">$category</label></div>";
-                    $i++;
+
+                    echo "<div class=\"categoryBtn\"><input type=\"checkbox\" name=\"cat_$i\" value=\"$category\" id=\"$i\" ><label for=\"$i\">$category</label></div>";
+
                 }
                 ?>
                 <br>
