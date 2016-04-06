@@ -29,10 +29,10 @@
         <p>Webside: www.westerdals.friluftsutvalget.no</p>
         
         <div id="tagBox">
-            <h4>Tagger</h4>
-            <a href="http://localhost/pj2100-15-gruppe-22/utvalg.php?cat_12=Friluftsliv&show=Vis+valgte">Friluftsliv, </a>
-            <a href="http://localhost/pj2100-15-gruppe-22/utvalg.php?cat_3=Fester&show=Vis+valgte">for studenter, </a>
-            <a href="http://localhost/pj2100-15-gruppe-22/utvalg.php?cat_3=Fester&show=Vis+valgte">for ansatte</a>
+            <h4 id="categoryBox">Kategorier</h4>
+            <p><a href="../utvalg.php?cat_12=Friluftsliv&show=Vis+valgte">Friluftsliv</a></p>
+            <p><a href="../utvalg.php?cat_3=Fester&show=Vis+valgte">For studenter</a></p>
+            <p><a href="../utvalg.php?cat_3=Fester&show=Vis+valgte">For ansatte</a></p>
         </div>
     </div>
     </div>

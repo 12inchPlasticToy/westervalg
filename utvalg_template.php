@@ -15,7 +15,7 @@
             <img src="../logos/logo_pus.png" alt="logo">
             <h1>Prosjektutvalget for spill</h1>
         </div>
-        <div id="descriptionText">
+        <div>
             <p>Sitter du inne med en spillidé, men mangler folk? Mangler teamet ditt en brikke? Vil du bare finne folk å lage spill med? Da er dette utvalget for deg!</p>
 
             <p>Prosjektutvalget for Spill har som mål å engasjere studenter til å bedrive spillutvikling utenfor klasserommet og på tvers av studieretningene på NITH.

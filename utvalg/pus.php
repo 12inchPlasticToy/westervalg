@@ -24,18 +24,19 @@
         <p>Dette kan også være en kanal for allerede etablerte team som kanskje bare mangler en brikke eller en ildsjel som bare vil lage spill.</p>
 
         <p>Med dette så ønsker vi å åpne for et myldrende spillutviklingsmiljø ved NITH hvor elevene tidlig kan tilegne seg erfaring og bli motivert til å delta i konkurranser og utvide sine porteføljer.</p>
-    </div>
         
+    </div>
     <div id="contactBox">
         <h4>Kontaktinformasjon</h4>
-        <p>Telefonnummer</p>
-        <p>Epost-adresse</p>
-        <p>Webside</p>
+        <p>Telefonnummer: 67332186</p>
+        <p>Epost-adresse: ranbet15@student.westerdals.no</p>
+        <p>Webside:
+        <a href="https://www.facebook.com/NITHPUS"> www.facebook.com/NITHPUS</a></p>
         
         <div id="tagBox">
-            <h4>Tagger</h4>
-            <a href="http://localhost/pj2100-15-gruppe-22/utvalg.php?cat_7=Gaming&show=Vis+valgte">Gaming,</a>
-            <a href="http://localhost/pj2100-15-gruppe-22/utvalg.php?cat_6=For+studenter&show=Vis+valgte"> for studenter</a>
+            <h4 id="categoryBox"><br>Kategorier</h4>
+            <p><a href="../utvalg.php?cat_7=Gaming&show=Vis+valgte">Gaming<br></a></p>
+            <p><a href="../utvalg.php?cat_6=For+studenter&show=Vis+valgte">For studenter</a></p>
         </div>
     </div>
     </div>

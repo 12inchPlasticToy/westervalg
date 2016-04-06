@@ -12,7 +12,7 @@
         
     <div id="utvalgContent">
         <div class="logo">
-            <img src="../logos/logo_mus.jpg" alt="logo">
+            <img src="../logos/logo_mus.png" alt="logo">
         </div>
         <h1>Musikkutvalget</h1>
         <p>Musikkutvalget ved NITH er et utvalg for å fremme musikk og fremførelse ved Norges IT Høgskole.</p> 
@@ -22,15 +22,15 @@
         
     <div id="contactBox">
         <h4>Kontaktinformasjon</h4>
-        <p>Telefonnummer: 97611132</p>
-        <p>Epost-adresse: www.sigsam15@student.westerdals.no</p>
-        <p>Webside: wwww.westerdals.musikkutvalget.no</p>
+        <p>Telefonnummer</p>
+        <p>Epost-adresse</p>
+        <p>Webside</p>
         
         <div id="tagBox">
-            <h4>Tagger</h4>
-            <a href="http://localhost/pj2100-15-gruppe-22/utvalg.php?cat_3=Fester&show=Vis+valgte">Musikk, </a>
-            <a href="http://localhost/pj2100-15-gruppe-22/utvalg.php?cat_3=Fester&show=Vis+valgte">for studenter, </a>
-            <a href="http://localhost/pj2100-15-gruppe-22/utvalg.php?cat_3=Fester&show=Vis+valgte">for ansatte</a>
+            <h4 id="categoryBox"><br>Kategorier</h4>
+            <p><a href="../utvalg.php?cat_3=Fester&show=Vis+valgte">Musikk</a></p>
+            <p><a href="../pj2100-15-gruppe-22/utvalg.php?cat_3=Fester&show=Vis+valgte">For studenter</a></p>
+            <p><a href="../utvalg.php?cat_3=Fester&show=Vis+valgte">For ansatte</a></p>
         </div>
     </div>
     </div>

@@ -27,15 +27,15 @@
         <p>Nestleder: Julie Brostigen</p>
         <p>Økonomiansvarlig: Elise Bjelland</p>
         <p>Eventansvarlig: Silje Linnerud</p>
-        <p>Telefonnummer: 41887641</p>
+        <p>Telefonnummer</p>
         <p>Epost-adresse: kitwesterdals@gmail.com</p>
-        <p>Webside: www.westerdals.kit.no</p>
+        <p>Webside</p>
         
         <div id="tagBox">
-            <h4>Tagger</h4>
-            <a href="http://localhost/pj2100-15-gruppe-22/utvalg.php?cat_9=IT&show=Vis+valgte">IT, </a>
-            <a href="http://localhost/pj2100-15-gruppe-22/utvalg.php?cat_6=For+studenter&show=Vis+valgte">for studenter, </a>
-            <a href="http://localhost/pj2100-15-gruppe-22/utvalg.php?cat_5=For+ansatte&show=Vis+valgte">for ansatte</a>
+            <h4 id="categoryBox">Kategorier</h4>
+            <p><a href="../utvalg.php?cat_9=IT&show=Vis+valgte">IT</a></p>
+            <p><a href="../utvalg.php?cat_6=For+studenter&show=Vis+valgte">For studenter</a></p>
+            <p><a href="../utvalg.php?cat_5=For+ansatte&show=Vis+valgte">For ansatte</a></p>
         </div>
     </div>
     </div>

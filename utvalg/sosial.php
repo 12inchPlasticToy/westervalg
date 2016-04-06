@@ -12,7 +12,7 @@
         
     <div id="utvalgContent">
         <div class="logo">
-            <img src="../logos/logo_sosialforeningen.png" alt="logo">
+            <img src="../logos/logo_sosial.png" alt="logo">
         </div>
         <h1>Sosialutvalget</h1>
         <p>Et utvalg for de som er interesserte i å skape et mer sosialt miljø på skolen. Det er vi som står for fester, filmkvelder, sommer og juleavslutninger og andre sosiale aktiviteter.</p>
@@ -27,11 +27,11 @@
         <p>Webside www.westerdals.sosialutvalget.no</p>
         
         <div id="tagBox">
-            <h4>Tagger</h4>
-            <a href="http://localhost/pj2100-15-gruppe-22/utvalg.php?cat_3=Fester&show=Vis+valgte">Fester, </a>
-            <a href="http://localhost/pj2100-15-gruppe-22/utvalg.php?cat_4=Film&show=Vis+valgte">film, </a>
-            <a href="http://localhost/pj2100-15-gruppe-22/utvalg.php?cat_6=For+studenter&show=Vis+valgte">for studenter, </a>
-            <a href="http://localhost/pj2100-15-gruppe-22/utvalg.php?cat_5=For+ansatte&show=Vis+valgte">for ansatte</a>
+            <h4 id="categoryBox"><br>Kategorier</h4>
+            <p><a href="../utvalg.php?cat_3=Fester&show=Vis+valgte">Fester</a></p>
+            <p><a href="../utvalg.php?cat_4=Film&show=Vis+valgte">Film</a></p>
+            <p><a href="../utvalg.php?cat_6=For+studenter&show=Vis+valgte">For studenter</a></p>
+            <p><a href="../utvalg.php?cat_5=For+ansatte&show=Vis+valgte">For ansatte</a></p>
         </div>
     </div>
     </div>
