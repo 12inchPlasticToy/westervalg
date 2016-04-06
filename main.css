@@ -164,11 +164,11 @@ body.home div.home, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg {
 }
 
 .categoryBtn:hover{
-    background-color: rgb(255, 100, 100);
+    background-color: rgb(255, 208, 102);
 }
 
 .categoryBtn input:checked + label{
-    background-color: rgb(100, 200, 100);
+    background-color: rgb(125, 195, 152);
 }
 
 .name{
