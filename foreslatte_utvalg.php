@@ -62,5 +62,6 @@
                 <p>"Tommel opp"-ikonet ble laget av <a href="http://www.freepik.com" title="Freepik">Freepik</a> fra <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com.</a> Lisens: <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
             </div>
         </div>
+        <?php include "footer.php"; ?>
     </body>
 </html>

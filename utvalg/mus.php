@@ -22,15 +22,15 @@
         
     <div id="contactBox">
         <h4>Kontaktinformasjon</h4>
-        <p>Telefonnummer</p>
-        <p>Epost-adresse</p>
-        <p>Webside</p>
+        <p>Telefonnummer: 97611132</p>
+        <p>Epost-adresse: www.sigsam15@student.westerdals.no</p>
+        <p>Webside: wwww.westerdals.musikkutvalget.no</p>
         
         <div id="tagBox">
             <h4 id="categoryBox"><br>Kategorier</h4>
-            <p><a href="../utvalg.php?cat_3=Fester&show=Vis+valgte">Musikk</a></p>
-            <p><a href="../pj2100-15-gruppe-22/utvalg.php?cat_3=Fester&show=Vis+valgte">For studenter</a></p>
-            <p><a href="../utvalg.php?cat_3=Fester&show=Vis+valgte">For ansatte</a></p>
+            <p><a href="../utvalg.php?cat_11=Musikk&show=Vis+valgte">Musikk</a></p>
+            <p><a href="../utvalg.php?cat_6=For+studenter&show=Vis+valgte">For studenter</a></p>
+            <p><a href="../utvalg.php?cat_5=For+ansatte&show=Vis+valgte">For ansatte</a></p>
         </div>
     </div>
     </div>

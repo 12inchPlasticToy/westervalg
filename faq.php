@@ -25,5 +25,6 @@
         <p class="question">Q: Jeg fant en feil på nettsiden deres, hvordan kan jeg informere dere om den?</p>
         <p class="answer">A: Send en epost til admin på admin@westervalg.no. Fortell hvor du fant feilen og hva som er feil så ordner vi opp i det.</p>
     </div>
+        <?php include "footer.php"; ?>
     </body>
 </html>

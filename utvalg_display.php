@@ -1,7 +1,7 @@
 <?php
     
-include "db_connect.php";
 // mysqli connection in db_connect saved in $link variable
+include "db_connect.php";
 
 
 /*
@@ -9,7 +9,7 @@ include "db_connect.php";
  should show
  */
 
-//echo var_dump(count($_GET));
+
 if(empty($_GET)){
 	$categories = $themes;
 }
@@ -28,6 +28,7 @@ else{
             break;
     }
 }
+
 
 
 /* 

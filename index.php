@@ -21,5 +21,6 @@
                 <li><a href="foreslatte_utvalg.php">Foreslåtte utvalg</a></li>
             </ul>
         </div>
+        <?php include "footer.php"; ?>
     </body>
 </html>

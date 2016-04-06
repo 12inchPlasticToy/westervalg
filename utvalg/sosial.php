@@ -26,7 +26,7 @@
         <p>Epost-adresse: danseb14@westerdals.student.no</p>
         <p>Webside www.westerdals.sosialutvalget.no</p>
         
-        <div id="tagBox">
+        <div>
             <h4 id="categoryBox"><br>Kategorier</h4>
             <p><a href="../utvalg.php?cat_3=Fester&show=Vis+valgte">Fester</a></p>
             <p><a href="../utvalg.php?cat_4=Film&show=Vis+valgte">Film</a></p>
