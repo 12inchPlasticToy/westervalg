@@ -27,9 +27,9 @@
         <p>Nestleder: Julie Brostigen</p>
         <p>Økonomiansvarlig: Elise Bjelland</p>
         <p>Eventansvarlig: Silje Linnerud</p>
-        <p>Telefonnummer</p>
+        <p>Telefonnummer: 41887641</p>
         <p>Epost-adresse: kitwesterdals@gmail.com</p>
-        <p>Webside</p>
+        <p>Webside: www.westerdals.kit.no</p>
         
         <div id="tagBox">
             <h4>Tagger</h4>

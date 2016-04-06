@@ -22,9 +22,9 @@
         
     <div id="contactBox">
         <h4>Kontaktinformasjon</h4>
-        <p>Telefonnummer</p>
-        <p>Epost-adresse</p>
-        <p>Webside</p>
+        <p>Telefonnummer: 97611132</p>
+        <p>Epost-adresse: www.sigsam15@student.westerdals.no</p>
+        <p>Webside: wwww.westerdals.musikkutvalget.no</p>
         
         <div id="tagBox">
             <h4>Tagger</h4>

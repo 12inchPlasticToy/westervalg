@@ -24,8 +24,8 @@
         <p>Dette kan også være en kanal for allerede etablerte team som kanskje bare mangler en brikke eller en ildsjel som bare vil lage spill.</p>
 
         <p>Med dette så ønsker vi å åpne for et myldrende spillutviklingsmiljø ved NITH hvor elevene tidlig kan tilegne seg erfaring og bli motivert til å delta i konkurranser og utvide sine porteføljer.</p>
-        
     </div>
+        
     <div id="contactBox">
         <h4>Kontaktinformasjon</h4>
         <p>Telefonnummer</p>
