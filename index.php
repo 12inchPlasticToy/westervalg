@@ -16,9 +16,9 @@
                 slik at man kan praktisere den sammen.
                 Utvalg er ment for å skape fellesskap på campuset og gjøre det enklere å bli kjent med andre på tvers av faglige retninger.</p>
             <ul>
-                <li>FAQ med informasjon om hvordan man oppretter utvalg</li>
-                <li>Utvalg som finnes</li>
-                <li>Foreslåtte utvalg</li>
+                <li><a href="faq.php">FAQ med informasjon om hvordan man oppretter utvalg</a></li>
+                <li><a href="utvalg.php">Utvalg som finnes</a></li>
+                <li><a href="foreslatte_utvalg.php">Foreslåtte utvalg</a></li>
             </ul>
         </div>
     </body>
