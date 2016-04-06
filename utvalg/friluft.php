@@ -12,7 +12,7 @@
         
     <div id="utvalgContent">
         <div class="logo">
-            <img src="../logos/logo_friluftsutvalget.gif" alt="logo">
+            <img src="../logos/logo_friluft.png" alt="logo">
         </div>
         <h1>Friluftsutvalget</h1>
         
