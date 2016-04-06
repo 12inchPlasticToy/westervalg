@@ -7,7 +7,8 @@
     </head>
     <body class="home">
         <?php include "header.php"; ?>
-    <div id="content" class="faq">
+        <br>
+    <div class="faq">
         <h1>FAQ</h1>
         <br>
         <p>Q: Jeg vil starte ett nytt utvalg, hvordan går jeg frem?</p>

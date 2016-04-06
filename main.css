@@ -57,7 +57,17 @@ a{
 }
 
 .faq{
+    margin:auto;
+    padding: 20px;
+    width: 40%;
+    font-family: sans-serif;
+    color: rgb(50,50,50);
     text-align: center;
+    background-color: rgb(250,250,250);
+}
+
+.faq hr{
+    width: 60%;
 }
 
 #content{
