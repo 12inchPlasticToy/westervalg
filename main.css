@@ -12,8 +12,8 @@
 #headerTools{
     font-family: sans-serif;
     position: relative;
-    text-align: right;
-    right: 10%;
+    text-align: left;
+    left: 10%;
 }
 
 #westerdals{
@@ -54,6 +54,14 @@
 
 a{
     color: rgb(49,49,49);
+}
+
+ul a:visited{
+    color: rgb(146, 102, 155);
+}
+
+.faq a:visited{
+    color: rgb(146, 102, 155);
 }
 
 #faq{

@@ -14,12 +14,12 @@ define("PATH",
 <div id="header">
     <img src=<?php echo PATH;?>images/CK32.jpg alt="" id="bg">
     <div id="headerTools">
+        <a href="http://www.westerdals.no">
+            <span id="westerdals"><< Tilbake til Westerdals </span>
+        </a>
         <span title="Hold Ctrl-tasten nede (Cmd-tasten på Mac). Trykk på + for å forstørre eller - for å forminske."/>
         |<span id="smaller">A </span>
         <span id="bigger">A</span></span>|
-        <a href="http://www.westerdals.no">
-            <span id="westerdals">Tilbake til Westerdals >></span>
-        </a>
     </div>
     <a href=<?php echo PATH;?>index.php>
         <div id="headLogo"><img src=<?php echo PATH;?>images/Westervalg_stor_logo.png height="150px"></div>
