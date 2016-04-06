@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:3307
--- Generation Time: Apr 05, 2016 at 11:04 AM
+-- Generation Time: Apr 06, 2016 at 08:26 AM
 -- Server version: 5.5.41-log
 -- PHP Version: 5.6.13
 
@@ -24,15 +24,15 @@ USE `marcle15`;
 
 -- --------------------------------------------------------
 
+--
+-- Table structure for table `utvalg_kategori`
+--
+
 DROP TABLE IF EXISTS `utvalg_kategori`;
 CREATE TABLE IF NOT EXISTS `utvalg_kategori` (
   `id_utvalg` int(11) NOT NULL DEFAULT '0',
   `id_kategori` int(11) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `utvalg_kategori`
---
 
 --
 -- Table structure for table `kategori`
@@ -76,6 +76,7 @@ DROP TABLE IF EXISTS `utvalg`;
 CREATE TABLE IF NOT EXISTS `utvalg` (
 `ID` int(11) NOT NULL,
   `Navn` varchar(255) CHARACTER SET latin1 NOT NULL,
+  `idnavn` varchar(255) NOT NULL,
   `Beskrivelse` varchar(255) CHARACTER SET latin1 NOT NULL,
   `Tags` varchar(255) CHARACTER SET latin1 NOT NULL
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=18 ;
@@ -84,29 +85,29 @@ CREATE TABLE IF NOT EXISTS `utvalg` (
 -- Dumping data for table `utvalg`
 --
 
-INSERT INTO `utvalg` (`ID`, `Navn`, `Beskrivelse`, `Tags`) VALUES
-(1, 'Sosialutvalget', 'Et utvalg for de som er interesserte i organisere fester, filmkvelder og andre sosiale aktiviteter.', 'Fester, film, for studenter, for ansatte'),
-(2, 'Prosjektutvalget for spill', 'Vi har som mål å engasjere studenter til å bedrive spillutvikling utenfor klasserommet og på tvers av studieretningene på skolen.', 'Gaming, for studenter'),
-(3, 'Gründerutvalget', 'Utvalget er en plattform for å lære om gründermiljøet i Oslo og Norge, og møte personer som har vært gjennom det før eller andre som vil komme i gang.', 'Gründervirksomhet, for studenter'),
-(4, 'Kvinner i IT', 'Kvinner og IT er en forening for jenter som studerer IT på Campus Fjerdingen.', 'IT, for studenter, for ansatte'),
-(5, 'Foreningen for spillkultur', 'Spill, LAN, D&D & more.', 'Gaming, brett- og kortspill, for studenter, for ansatte'),
-(6, 'Musikkutvalget', 'Musikkutvalget er et utvalg som arrangerer events for å skape glede og felleskap rundt musikk og fremførelse.', 'Musikk, for studenter, for ansatte'),
-(7, 'Utviklingsutvalget', 'Utviklingsutvalget er et utvalg som tar for seg programmering og design av apper, nettsider, programmer, spill og lignende.', 'IT, for studenter'),
-(8, '#fuBar', 'Studentpuben ved Westerdals.', 'Baren, fester, for studenter'),
-(9, 'Netflix&Chill', 'Velkommen til en koselig kinoopplevelse med medstudenter og ansatte =)', 'Film, for studenter, for ansatte'),
-(10, 'Poesiutvalget', 'Vi fremfører dikt og lytter til hverandres indre sjeler og kobles sammen av dyp poesi, en sann rens for hjerte og sjel.', 'Poesi, for studenter, for ansatte'),
-(11, 'Bowlingutvalget', 'En rå gjeng treffes en gang i måneden og konkurrerer om å bli Westerdals bowling champion!', 'Sport, for studenter, for ansatte'),
-(12, 'Friluftsutvalget', 'Vi samles og går lange turer i felleskap, griller og koser oss. Superkoselig, superdigg og supergøy!', 'Friluftsliv, for studenter, for ansatte'),
-(13, 'Kunstutvalget', 'Vi deler tips, triks og gir hverandre råd til hvordan å komme i bedre kontakt med vår indre kunstner.', 'Kunst, for studenter, for ansatte'),
-(14, 'Ansattutvalget', 'Utvalget for ansatte der vi arrangerer sosiale sammenkomster for å styrke samholdet mellom oss som jobber på Campus Fjerdingen.', 'For ansatte'),
-(15, 'Teater og skuespill utvalget', 'Improvisasjonsaften for ren moro og sosialisering for deg som har interesse for teater og skuespill. ', 'Improvisasjon, teater, for studenter'),
-(16, 'StayFit utvalget', 'Vi møtes, mingler, finner treningspartnere etter fitnessmål og deler kostholdstips og treningsråd.', 'Sport, for studenter'),
-(17, 'SoulTrain utvalget', 'Vi lager både egne beats og lyrics, og chiller til de største HipHop sangene gjennom tidene. ', 'Musikk, improvisasjon, for studenter');
+INSERT INTO `utvalg` (`ID`, `Navn`, `idnavn`, `Beskrivelse`, `Tags`) VALUES
+(1, 'Sosialutvalget', 'sosial', 'Et utvalg for de som er interesserte i organisere fester, filmkvelder og andre sosiale aktiviteter.', 'Fester, film, for studenter, for ansatte'),
+(2, 'Prosjektutvalget for spill', 'pus', 'Vi har som mål å engasjere studenter til å bedrive spillutvikling utenfor klasserommet og på tvers av studieretningene på skolen.', 'Gaming, for studenter'),
+(3, 'Gründerutvalget', 'grunder', 'Utvalget er en plattform for å lære om gründermiljøet i Oslo og Norge, og møte personer som har vært gjennom det før eller andre som vil komme i gang.', 'Gründervirksomhet, for studenter'),
+(4, 'Kvinner i IT', 'kit', 'Kvinner og IT er en forening for jenter som studerer IT på Campus Fjerdingen.', 'IT, for studenter, for ansatte'),
+(5, 'Foreningen for spillkultur', 'ffs', 'Spill, LAN, D&D & more.', 'Gaming, brett- og kortspill, for studenter, for ansatte'),
+(6, 'Musikkutvalget', 'mus', 'Musikkutvalget er et utvalg som arrangerer events for å skape glede og felleskap rundt musikk og fremførelse.', 'Musikk, for studenter, for ansatte'),
+(7, 'Utviklingsutvalget', 'utvikling', 'Utviklingsutvalget er et utvalg som tar for seg programmering og design av apper, nettsider, programmer, spill og lignende.', 'IT, for studenter'),
+(8, '#fuBar', 'fubar', 'Studentpuben ved Westerdals.', 'Baren, fester, for studenter'),
+(9, 'Netflix&Chill', 'netflix', 'Velkommen til en koselig kinoopplevelse med medstudenter og ansatte =)', 'Film, for studenter, for ansatte'),
+(10, 'Poesiutvalget', 'poesi', 'Vi fremfører dikt og lytter til hverandres indre sjeler og kobles sammen av dyp poesi, en sann rens for hjerte og sjel.', 'Poesi, for studenter, for ansatte'),
+(11, 'Bowlingutvalget', 'bowling', 'En rå gjeng treffes en gang i måneden og konkurrerer om å bli Westerdals bowling champion!', 'Sport, for studenter, for ansatte'),
+(12, 'Friluftsutvalget', 'friluft', 'Vi samles og går lange turer i felleskap, griller og koser oss. Superkoselig, superdigg og supergøy!', 'Friluftsliv, for studenter, for ansatte'),
+(13, 'Kunstutvalget', 'kunst', 'Vi deler tips, triks og gir hverandre råd til hvordan å komme i bedre kontakt med vår indre kunstner.', 'Kunst, for studenter, for ansatte'),
+(14, 'Ansattutvalget', 'ansatt', 'Utvalget for ansatte der vi arrangerer sosiale sammenkomster for å styrke samholdet mellom oss som jobber på Campus Fjerdingen.', 'For ansatte'),
+(15, 'Teater og skuespill utvalget', 'teater', 'Improvisasjonsaften for ren moro og sosialisering for deg som har interesse for teater og skuespill. ', 'Improvisasjon, teater, for studenter'),
+(16, 'StayFit utvalget', 'stayfit', 'Vi møtes, mingler, finner treningspartnere etter fitnessmål og deler kostholdstips og treningsråd.', 'Sport, for studenter'),
+(17, 'SoulTrain utvalget', 'soultrain', 'Vi lager både egne beats og lyrics, og chiller til de største HipHop sangene gjennom tidene. ', 'Musikk, improvisasjon, for studenter');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `utvalg_kategori`
+-- Dumping data for table `utvalg_kategori`
 --
 
 INSERT INTO `utvalg_kategori` (`id_utvalg`, `id_kategori`) VALUES
