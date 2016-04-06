@@ -9,19 +9,28 @@
     text-align: center;
 }
 #utvalgContent{
+    position: relative;
+}
+
+#descriptionText{
     margin-top: 0;
     margin-right: 40%;
     margin-bottom: 5%;
-    margin-left: 10%;
-    width: auto;
+    margin-left: 5%;
+    width: 45%;
+    padding-left: 20px;
+    padding-right: 25px;
     font-family: sans-serif;
     border-right: solid;
     text-align: left;
-    border-right-color: lightgray;
-    padding: 20px;
+    border-right-color: lightgray; 
+    position: absolute;
+    left: 0%;
 }
+
 .logo{
     height: auto;
+    width: 100%
     display: inline-block;
 }
 .logo img{
@@ -29,12 +38,14 @@
     max-height: 300px;
 }
 #contactBox{
-    margin-top: -42%;
-    margin-left: 62%;
+    margin-top: 2%;
+    margin-right: 5%;
     font-family: sans-serif; 
-    width: 295px;
+    width: 33%;
     height: auto;
     padding: 15px;
     background-color: lightgrey;
     text-align: left;
+    position: absolute;
+    right: 0px;
 }
