@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php 
-$path = "";
+$path = "http://127.0.0.1/pj2100-15-gruppe-22/";
 //$path = "http://home.nith.no/~marcle15/"
 ?>
 <div id="header">
