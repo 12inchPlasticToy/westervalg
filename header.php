@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <?php 
-/**
-Leave uncommented the corresponding URL:
-- the 127.0.0.1 URL for local servers
-- the home.nith.no URL for the live server
-**/
-
-define("PATH", 
-       "http://127.0.0.1/pj2100-15-gruppe-22/"
-    // "http://home.nith.no/~marcle15/"
-       );
+/*
+Dynamically assigns absolute filepaths to the correct
+URL
+*/
+$host = $_SERVER['HTTP_HOST'];
+switch($host){
+    case '127.0.0.1':
+        define("PATH", "http://127.0.0.1/pj2100-15-gruppe-22/");
+        break;
+    case 'home.nith.no':
+        define("PATH", "http://home.nith.no/~marcle15/");
+        break;   
+}
+       
 ?>
 <div id="header">
     <img src=<?php echo PATH;?>images/CK32.jpg alt="header background" id="bg">
