@@ -12,7 +12,7 @@ define("PATH",
        );
 ?>
 <div id="header">
-    <img src=<?php echo PATH;?>images/CK32.jpg alt="" id="bg">
+    <img src=<?php echo PATH;?>images/CK32.jpg alt="header background" id="bg">
     <div id="headerTools">
         <a href="http://www.westerdals.no">
             <span id="westerdals"><< Tilbake til Westerdals </span>
@@ -22,7 +22,7 @@ define("PATH",
         <span id="bigger">A</span></span>|
     </div>
     <a href=<?php echo PATH;?>index.php>
-        <div id="headLogo"><img src=<?php echo PATH;?>images/Westervalg_stor_logo.png height="150px"></div>
+        <div id="headLogo"><img src=<?php echo PATH;?>images/Westervalg_stor_logo.png alt="homepage logo" height="150px"></div>
         </a>
     <div class="buttons">
    <!-- | <a href=<?php echo PATH;?>index.php><div class="indexBtn hjem" id="hjemBtn">Hjem</div></a> -->
