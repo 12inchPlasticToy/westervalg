@@ -56,5 +56,6 @@
                 <?php include "utvalg_display.php";?>
             </div>
         </div>
+        <?php include "footer.php"; ?>
     </body>
 </html>

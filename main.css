@@ -60,7 +60,7 @@ ul a:visited{
     color: rgb(146, 102, 155);
 }
 
-.faq a:visited{
+#faq a:visited{
     color: rgb(146, 102, 155);
 }
 
@@ -81,8 +81,9 @@ ul a:visited{
 #content{
     margin-top: 0;
     margin-right: 15%;
-    margin-bottom: 0;
+    margin-bottom: 5%;
     margin-left: 15%;
+    min-height: 100%;
     width: auto;
     font-family: sans-serif;
     color: rgb(50,50,50);
