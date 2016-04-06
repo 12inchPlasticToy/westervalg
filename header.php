@@ -7,8 +7,8 @@ Leave uncommented the corresponding URL:
 **/
 
 define("PATH", 
-//    "http://127.0.0.1/pj2100-15-gruppe-22/"
-       "http://home.nith.no/~marcle15/"
+       "http://127.0.0.1/pj2100-15-gruppe-22/"
+    // "http://home.nith.no/~marcle15/"
        );
 ?>
 <div id="header">
