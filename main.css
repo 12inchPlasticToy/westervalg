@@ -50,6 +50,49 @@
     background-color: rgb(255,255,255);
 }
 
+#utvalgBtn{
+    margin: 10px;
+    padding: 0;
+    width: 100px;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+#fUtvalgBtn{
+    margin: 10px;
+    padding: 0;
+    width: 200px;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+#stUtvalgBtn{
+    margin: 10px;
+    padding: 0;
+    width: 180px;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+#faqBtn{
+    margin: 10px;
+    padding: 0;
+    width: 100px;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+#hjemBtn{
+    margin: 10px;
+    padding: 0;
+    width: 100px;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+.indexBtn:hover{
+    font-weight: bold;
+}
 /* Header css end */
 
 a{
@@ -71,39 +114,14 @@ ul a:visited{
     color: rgb(50,50,50);
 }
 
-#utvalgBtn{
-    margin: 10px;
-    padding: 0;
-    width: 100px;
-    font-family: sans-serif;
-    display: inline-block;
-}
-
-#fUtvalgBtn{
-    margin: 10px;
-    padding: 0;
-    width: 260px;
-    font-family: sans-serif;
-    display: inline-block;
-}
-
-#faqBtn{
-    margin: 10px;
-    padding: 0;
-    width: 100px;
-    font-family: sans-serif;
-    display: inline-block;
-}
-
-.indexBtn:hover{
-    font-weight: bold;
-}
-
-body.faq div.faq, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg {
+body.home div.home, body.faq div.faq, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg {
     font-weight: bold;
     text-decoration: underline;
 }
 
+p{
+    font-family: verdana;
+}
 /* Utvalg start */
 
 .visitkortWrapper{
