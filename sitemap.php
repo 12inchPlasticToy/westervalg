@@ -31,7 +31,7 @@
                         <a href="utvalg/stayfit.php"><li>StayFitutvalget</li></a>
                         <a href="utvalg/soultrain.php"><li>Soultrainutvalget</li></a>
                     </ul>
-                <a href="foreslatte_utvalg.php"><li>Idéer til utvalg</li></a>
+                <a href="ideer_for_utvalg.php"><li>Idéer til utvalg</li></a>
                 <a href="starte_utvalg.php"><li>Starte utvalg</li></a>
                 <a href="faq.php"><li>FAQ</li></a>
             </ul>

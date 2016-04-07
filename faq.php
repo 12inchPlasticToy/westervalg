@@ -11,7 +11,7 @@
     <div id="faq">
         <h1>FAQ</h1>
         <p class="question">Q: Jeg vil starte ett nytt utvalg, hvordan går jeg frem?</p>
-        <p class="answer">A: Send en epost med din idé til <a href="mailto:daheva15@student.westerdals.no">daheva15@student.westerdals.no</a>. Det eneste vi trenger er navnet på utvalget, en kort beskrivelse av utvalget (max 200 tegn) og din kontaktinformasjon. Vi legger da ut forslaget ditt under <a href="foreslatte_utvalg.php">foreslåtte utvalg</a> for å sjekke hvor stor interesse det finnes for ditt utvalg.</p>
+        <p class="answer">A: Send en epost med din idé til <a href="mailto:daheva15@student.westerdals.no">daheva15@student.westerdals.no</a>. Det eneste vi trenger er navnet på utvalget, en kort beskrivelse av utvalget (max 200 tegn) og din kontaktinformasjon. Vi legger da ut forslaget ditt under <a href="ideer_for_utvalg.php">idéer for utvalg</a> for å sjekke hvor stor interesse det finnes for ditt utvalg.</p>
         <hr>
         <p class="question">Q: Hva er utvalg?</p>
         <p class="answer">A: Et utvalg er på mange måter lik en klubb, og består av ansatte og/eller elever som deler en felles interesse, slik at man kan praktisere den sammen.</p>
