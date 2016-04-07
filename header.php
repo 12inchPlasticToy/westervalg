@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php 
 /*
 Dynamically assigns absolute filepaths to the correct
