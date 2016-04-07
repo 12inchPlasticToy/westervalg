@@ -104,7 +104,7 @@ body.faq div.faq, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg {
     text-decoration: underline;
 }
 
-/* Utvalg visitkort start */
+/* Utvalg start */
 
 .visitkortWrapper{
     position: relative;
@@ -193,6 +193,15 @@ body.faq div.faq, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg {
 .tags{
     position: absolute;
     bottom: 0%;
+}
+
+.utvalg input{
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    font-size: 1em;
+    background-color: rgb(232,232,232);
+    border-color: rgb(202,202,202);
 }
 
 /* Specific for cards in idéer for utvalg */
