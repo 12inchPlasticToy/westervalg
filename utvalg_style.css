@@ -1,8 +1,21 @@
-body {display: block;}
+body {
+    /*
+    display: block;
+    */
+}
 #content{
     color: rgb(50, 50, 50);
     margin-top: 4%;
     position: relative;
+    display: -webkit-flex;
+    /*
+    */
+}
+.home ~ div{
+ /*
+    position: absolute;
+    display: -webkit-flex;
+    */
 }
 #content .logo{
     text-align: center;
@@ -11,21 +24,22 @@ body {display: block;}
     text-align: center;
 }
 #utvalgContent{
-    display: block;
     font-family: sans-serif;
     text-align: left;
     border-right: solid;
     border-right-color: rgb(232, 232, 232);
     margin-top: 0;
-    margin-right: 40%;
     margin-bottom: 5%;
     margin-left: 5%;
+    margin-right: 5%;
     width: 45%;
     padding-left: 20px;
     padding-right: 25px;
     left: 0%;
 /*
-    position: relative;
+    display: block;
+    position: absolute;
+    margin-right: 40%;
 */
 }
 .logo{
@@ -40,15 +54,17 @@ body {display: block;}
 
 #contactBox{
     font-family: sans-serif; 
-    height: auto;
     background-color: rgb(232, 232, 232);
     right: 0%;
-    margin-top: 2%;
     margin-right: 5%;
     width: 33%;
     padding: 15px;
     text-align: left;
+    position: absolute;
+    height: auto;
+    
     /*
+    margin-top: 2%;
     position: absolute;
 */
 }
