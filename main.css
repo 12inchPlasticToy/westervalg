@@ -114,7 +114,7 @@ ul a:visited{
     color: rgb(50,50,50);
 }
 
-body.home div.home, body.faq div.faq, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg {
+body.home div.home, body.faq div.faq, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg, body.stUtvalg div.stUtvalg {
     font-weight: bold;
     text-decoration: underline;
 }
