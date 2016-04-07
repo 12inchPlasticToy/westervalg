@@ -12,7 +12,7 @@
         
     <div id="utvalgContent">
         <div class="logo">
-            <img src="../logos/logo_utvikling.png" alt="Utviklingsutvalgets logo">
+            <img src="../logos/logo_netflix.png" alt="Utviklingsutvalgets logo">
         </div>
         <h1>Netflix & Chill</h1>
         <p>Fredag annenhver uke samles vi i auditoriet og ser filmer på prosjektoren. Hvilken film vi ser avgjøres under avstemming når vi samles. Både nye og gamle filmer er med i avstemmingen. Velkommen til en koselig kinoopplevelse med medstudenter og ansatte =)</p>

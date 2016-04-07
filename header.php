@@ -34,7 +34,7 @@ switch($host){
         <div id="headLogo"><img src=<?php echo PATH;?>images/Westervalg_stor_logo.png alt="homepage logo" height="150px"></div>
         </a>
     <div class="buttons">
-        | <a href=<?php echo PATH;?>index.php><div class="indexBtn home" id="hjemBtn">Hjem</div></a>
+        | <a href=<?php echo PATH;?>index.php><div class="indexBtn index" id="hjemBtn">Hjem</div></a>
         | <a href=<?php echo PATH;?>utvalg.php><div class="indexBtn utvalg" id="utvalgBtn">Utvalg</div></a>
         | <a href=<?php echo PATH;?>ideer_for_utvalg.php><div class="indexBtn forUtvalg" id="fUtvalgBtn">Idéer til utvalg</div></a>
         | <a href=<?php echo PATH;?>starte_utvalg.php><div class="indexBtn stUtvalg" id="stUtvalgBtn">Starte utvalg</div></a>
