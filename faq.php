@@ -14,7 +14,7 @@
         <p class="answer">A: Send en epost med din idé til [XXXX@westervalg.no]. Det eneste vi trenger er navnet på utvalget, en kort beskrivelse av utvalget (max 200 tegn) og din kontaktinformasjon. Vi legger da ut forslaget ditt under <a href="foreslatte_utvalg.php">foreslåtte utvalg</a> for å sjekke hvor stor interesse det finnes for ditt utvalg.</p>
         <hr>
         <p class="question">Q: Hva er utvalg?</p>
-        <p class="answer">A: Et utvalg er en samling mennesker med en felles interesse som samles for å praktisere denne interessen, f. eks. bowling.</p>
+        <p class="answer">A: Et utvalg er på mange måter lik en klubb, og består av ansatte og/eller elever som deler en felles interesse, slik at man kan praktisere den sammen.</p>
         <hr>
         <p class="question">Q: Er ikke utvalg bare for studenter?</p>
         <p class="answer">A: Noen utvalg er kun for studenter, noen kun for ansatte, og resten er for alle som vil delta.</p>

@@ -271,6 +271,19 @@ body.faq div.faq, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg {
 }
 /* FAQ end */ 
 
+/* Home start*/
+
+
+.home p{
+    width: 60%;
+}
+
+.homeImages{
+    width: 45%;
+}
+
+/* Home end */
+
 /*---footer start---*/
 
 .footer {
