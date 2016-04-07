@@ -8,6 +8,7 @@
     <body class="utvalg">
         <?php include "header.php"; ?>
         <br>        
+        
         <!-- category selector START-->
         <div id="content">
             <h2>Velg kategorier og trykk på "Vis valgte"</h2>
@@ -49,7 +50,9 @@
                 <input type="reset" value="Fjern valg">
             </form>
             <!-- category selector END-->
+            
             <p>Klikk på et utvalg for å få mer informasjon.</p>
+            
             <!-- Utvalg display START -->
             <br>
             <div class="visitkortWrapper">                

@@ -210,10 +210,6 @@ p{
     border-color: rgb(50,50,50);
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
-    transition: background-color rgb(100,200,200);
-    -webkit-transition: background-color rgb(100,200,200);
-    -ms-transition: background-color rgb(100,200,200);
-    -moz-transition: background-color rgb(100,200,200);
 }
 
 .categoryBtn input{
@@ -279,12 +275,6 @@ p{
     border-width: 2px;
     float: left;
     position: relative;
-    /*
-    transition: box-shadow 0.2s;
-    -webkit-transition: box-shadow 0.2s;
-    -moz-transition: box-shadow 0.2s;
-    -ms-transition: box-shadow 0.2s;
-    */
 }
 
 .votes{
@@ -366,23 +356,15 @@ p{
 /* New utvalg start */
 
 #visitkortExample{
-/**
-    position: absolute;
-    top: 33.5%;
-    right: 20%;
-    width: 18%;
-    width: 18%;
-**/
+
     display: block;
-  max-width:338px;
-  max-height:391px;
-  width: auto;
-  height: auto;
-    /*
-    height: 100%;
+    max-width:338px;
+    max-height:391px;
     width: auto;
-    */
+    height: auto;
+    
 }
+
 /* New utvalg end */
 
 /* Index start*/
@@ -466,8 +448,6 @@ p{
     position: relative;
     display: -webkit-flex;
     display: flex;
-    /*
-    */
 }
 
 #utvalgContent{
