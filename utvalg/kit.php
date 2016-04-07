@@ -12,7 +12,7 @@
         
     <div id="utvalgContent">
         <div class="logo">
-            <img src="../logos/logo_kit.jpg" alt="Kvinner i IT logo">
+            <img src="../logos/logo_kit.png" alt="Kvinner i IT logo">
         </div>
         <h1>Kvinner i IT</h1>
         <p>Kvinner og IT er en forening for jenter som studerer IT på Westerdals Oslo ACT Campus Galleri.</p>
@@ -27,12 +27,12 @@
         <p>Nestleder: Julie Brostigen</p>
         <p>Økonomiansvarlig: Elise Bjelland</p>
         <p>Eventansvarlig: Silje Linnerud</p>
-        <p>Telefonnummer</p>
+        <p>Telefonnummer: 85662464</p>
         <p>Epost-adresse: kitwesterdals@gmail.com</p>
-        <p>Webside</p>
+        <p>Webside: <a href="https://www.facebook.com/KIT.NITH">www.facebook.com/KIT.NITH</a></p>
         
         <div id="tagBox">
-            <h4 id="categoryBox">Kategorier</h4>
+            <h4 id="categoryBox"><br>Kategorier</h4>
             <p><a href="../utvalg.php?cat_9=IT&show=Vis+valgte">IT</a></p>
             <p><a href="../utvalg.php?cat_6=For+studenter&show=Vis+valgte">For studenter</a></p>
             <p><a href="../utvalg.php?cat_5=For+ansatte&show=Vis+valgte">For ansatte</a></p>
