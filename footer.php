@@ -11,7 +11,7 @@
                     </div>
                     <div id="info">
                         <li><a href="http://www.vg.no">->RAPPORTER FEIL</a></li>
-                        <li><a href="http://www.vg.no">->SITEMAP</a></li>         
+                        <li><a href="sitemap.php">->SITEMAP</a></li>         
                         <li><a href="http://www.vg.no">->KONTAKT</a></li> 
                     </div>
                 </ul>

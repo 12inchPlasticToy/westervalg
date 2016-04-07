@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Foreslåtte utvalg</title>
+        <title>Idéer til utvalg</title>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="main.css">
     </head>
