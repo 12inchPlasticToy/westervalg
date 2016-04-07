@@ -10,9 +10,9 @@
                         <img src=<?php echo PATH;?>images/Westervalg_stor_logo.png alt="logo">
                     </div>
                     <div id="info">
-                        <li><a href="http://www.vg.no">->RAPPORTER FEIL</a></li>
-                        <li><a href="sitemap.php">->SITEMAP</a></li>         
-                        <li><a href="http://www.vg.no">->KONTAKT</a></li> 
+                        <li><a href="mailto:marcle15@student.westerdals.no">->RAPPORTER FEIL</a></li>
+                        <li><a href=<?php echo PATH;?>sitemap.php>->SITEMAP</a></li>         
+                        <li><a href="mailto:daheva15@student.westerdals.no">->KONTAKT</a></li> 
                     </div>
                 </ul>
             </nav>

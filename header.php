@@ -12,7 +12,7 @@ switch($host){
         break;   
     default:
         // If the header does not show properly, 
-        // change second variable to the absolute filepath
+        // change second variable ("http://...") to the absolute filepath
         // where you have installed the website
         
         define("PATH", "http://$host/pj2100-15-gruppe-22/");
