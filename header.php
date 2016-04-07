@@ -4,14 +4,15 @@
 Dynamically assigns absolute filepaths to the correct
 URL
 */
+
 $host = $_SERVER['HTTP_HOST'];
 switch($host){
-    case '127.0.0.1':
-        define("PATH", "http://127.0.0.1/pj2100-15-gruppe-22/");
-        break;
     case 'home.nith.no':
         define("PATH", "http://home.nith.no/~marcle15/");
         break;   
+    default:
+        define("PATH", "http://$host/pj2100-15-gruppe-22/");
+        break;
 }
        
 ?>
