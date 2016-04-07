@@ -11,13 +11,17 @@ switch($host){
         define("PATH", "http://home.nith.no/~marcle15/");
         break;   
     default:
+        // If the header does not show properly, 
+        // change second variable to the absolute filepath
+        // where you have installed the website
+        
         define("PATH", "http://$host/pj2100-15-gruppe-22/");
         break;
 }
        
 ?>
 <div id="header">
-    <img src=<?php echo PATH;?>images/CK32.jpg alt="header background" id="bg">
+    <img src=<?php echo PATH;?>images/CK32.jpg alt="" id="bg">
     <div id="headerTools">
         <a href="http://www.westerdals.no">
             <span id="westerdals"><< Tilbake til Westerdals </span>
