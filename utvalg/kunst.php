@@ -12,7 +12,7 @@
         
     <div id="utvalgContent">
         <div class="logo">
-            <img src="../logos/logo_kunst.png" alt="logo">
+            <img src="../logos/logo_kunst.png" alt="Kunstutvalgets logo">
         </div>
         <h1>Kunstutvalget</h1>
         <p>Er du over gjennomsnittet interessert i kunst og har en indre Picasso som skriker etter å komme ut? Vi i kunstutvalget samles to kvelder i måneden og ser på berømte malerier, historiene rundt disse, reflekterer og gjenskaper vår versjon av kjente kunstverk. Vi deler tips, triks og gir hverandre råd til hvordan å komme i bedre kontakt med vår indre kunstner.</p>

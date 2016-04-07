@@ -12,7 +12,7 @@
         
     <div id="utvalgContent">
         <div class="logo">
-            <img src="../logos/logo_stayfit.png" alt="logo">
+            <img src="../logos/logo_stayfit.png" alt="StayFitutvalgets logo">
         </div>
         
         <h1>StayFitutvalget</h1>

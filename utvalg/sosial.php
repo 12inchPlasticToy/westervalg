@@ -12,7 +12,7 @@
         
     <div id="utvalgContent">
         <div class="logo">
-            <img src="../logos/logo_sosial.png" alt="logo">
+            <img src="../logos/logo_sosial.png" alt="sosialutvalgets logo">
         </div>
         <h1>Sosialutvalget</h1>
         <p>Et utvalg for de som er interesserte i å skape et mer sosialt miljø på skolen. Det er vi som står for fester, filmkvelder, sommer og juleavslutninger og andre sosiale aktiviteter.</p>
@@ -26,7 +26,7 @@
         <p>Epost-adresse: danseb14@westerdals.student.no</p>
         <p>Webside www.westerdals.sosialutvalget.no</p>
         
-        <div>
+        <div id="tagBox">
             <h4 id="categoryBox"><br>Kategorier</h4>
             <p><a href="../utvalg.php?cat_3=Fester&show=Vis+valgte">Fester</a></p>
             <p><a href="../utvalg.php?cat_4=Film&show=Vis+valgte">Film</a></p>

@@ -12,7 +12,7 @@
         
     <div id="utvalgContent">
         <div class="logo">
-            <img src="../logos/logo_mus.png" alt="logo">
+            <img src="../logos/logo_mus.png" alt="Musikkutvalgets logo">
         </div>
         <h1>Musikkutvalget</h1>
         <p>Musikkutvalget ved NITH er et utvalg for å fremme musikk og fremførelse ved Norges IT Høgskole.</p> 

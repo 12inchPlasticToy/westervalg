@@ -12,7 +12,7 @@
         
     <div id="utvalgContent">
         <div class="logo">
-            <img src="../logos/logo_poesi.png" alt="logo">
+            <img src="../logos/logo_poesi.png" alt="Poesiutvalgets logo">
         </div>
         <h1>Poesiutvalget</h1>
         <p>Vær velkommen til poesiaften hver siste onsdag i måneden. Vi fremfører dikt og lytter til hverandres indre sjeler og kobles sammen av dyp poesi, en sann rens for hjerte og sjel. Vi ser tilbake på tidenes største poeter, leser deres poesi og reflekterer rundt disse for vår poetiske videreutvikling.</p>

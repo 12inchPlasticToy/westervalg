@@ -12,7 +12,7 @@
         
     <div id="utvalgContent">
         <div class="logo">
-            <img src="../logos/logo_pus.png" alt="logo">
+            <img src="../logos/logo_pus.png" alt="Prosjektutvalget for spill logo">
         </div>
         <h1>Prosjektutvalget for spill</h1>
         <p>Sitter du inne med en spillidé, men mangler folk? Mangler teamet ditt en brikke? Vil du bare finne folk å lage spill med? Da er dette utvalget for deg!</p>
