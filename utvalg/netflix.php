@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang=”nb”>
     <head>
         <title>Utvalg - Netflix & Chill</title>
         <meta charset="utf-8">

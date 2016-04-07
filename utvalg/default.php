@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html  lang=”nb”>
     <head>
         <title>Siden eksisterer ikke</title>
         <meta charset="utf-8">

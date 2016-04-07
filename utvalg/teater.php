@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang=”nb”>
     <head>
         <title>Utvalg - Teater og skuespillutvalget </title>
         <meta charset="utf-8">
