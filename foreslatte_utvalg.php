@@ -9,8 +9,7 @@
         <?php include "header.php"; ?>
 
         <div id="content">
-            <p>Her finner du informasjon om foreslåtte utvalg.</p>
-            <p>Hvis det er noen du kunne tenke deg å ta del i kan du gi dem en tommel opp.</p>
+            <p class="introText">Her finner du informasjon om utvalg som noen har foreslått å opprette. <br><br>Hvis det er noen du kunne tenke deg å ta del i kan du gi dem en tommel opp.</p>
             <div class="visitkortWrapper">
                 <!-- "Thumbs up"-icon used here was made by Freepik from www.flaticon.com, is licensed by Creative Commons BY 3.0 CC 3.0 BY -->
                 <div class="visitkort_f_u">
@@ -59,7 +58,7 @@
                 </div>
             </div>
             <div>
-                <p>"Tommel opp"-ikonet ble laget av <a href="http://www.freepik.com" title="Freepik">Freepik</a> fra <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com.</a> Lisens: <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+                <p id="copyright">"Tommel opp"-ikonet ble laget av <a href="http://www.freepik.com" title="Freepik">Freepik</a> fra <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com.</a> Lisens: <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
             </div>
         </div>
         <?php include "footer.php"; ?>

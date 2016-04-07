@@ -9,7 +9,6 @@
         <?php include "header.php"; ?>
         <div id="content">
             <h1>Velkommen til Westervalg!</h1>
-            <br>
             <p>Her finner du informasjon om utvalgene som finnes ved Campus Fjerdingen,
                 utvalg som noen er interessert i å starte,
                 og informasjon om hvordan man oppretter et utvalg.</p>
