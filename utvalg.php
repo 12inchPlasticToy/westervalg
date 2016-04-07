@@ -10,7 +10,7 @@
         <br>        
         <!-- category selector START-->
         <div id="content">
-            <h2>Velg kategorier</h2>
+            <h2>Velg kategorier og trykk på "Vis valgte"</h2>
             
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="get">
                 <?php
@@ -49,7 +49,7 @@
                 <input type="reset" value="Fjern valg">
             </form>
             <!-- category selector END-->
-            
+            <p>Klikk på et utvalg for å få mer informasjon.</p>
             <!-- Utvalg display START -->
             <br>
             <div class="visitkortWrapper">                

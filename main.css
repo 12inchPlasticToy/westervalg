@@ -206,7 +206,8 @@ p{
     margin: 5px;
     position: relative;
     float: inherit;
-    border: 2px solid;
+    border: 1px solid;
+    border-color: rgb(50,50,50);
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     transition: background-color rgb(100,200,200);
