@@ -1,3 +1,4 @@
+body {display: block;}
 #content{
     color: rgb(50, 50, 50);
     margin-top: 4%;
@@ -10,12 +11,11 @@
     text-align: center;
 }
 #utvalgContent{
-    position: relative;
+    display: block;
     font-family: sans-serif;
-    border-right: solid;
     text-align: left;
+    border-right: solid;
     border-right-color: rgb(232, 232, 232);
-    position: absolute;
     margin-top: 0;
     margin-right: 40%;
     margin-bottom: 5%;
@@ -24,6 +24,9 @@
     padding-left: 20px;
     padding-right: 25px;
     left: 0%;
+/*
+    position: relative;
+*/
 }
 .logo{
     height: auto;
@@ -34,17 +37,20 @@
     max-width: 500px;
     max-height: 300px;
 }
+
 #contactBox{
+    font-family: sans-serif; 
+    height: auto;
+    background-color: rgb(232, 232, 232);
+    right: 0%;
     margin-top: 2%;
     margin-right: 5%;
-    font-family: sans-serif; 
     width: 33%;
-    height: auto;
     padding: 15px;
-    background-color: rgb(232, 232, 232);
     text-align: left;
+    /*
     position: absolute;
-    right: 0px;
+*/
 }
 #categoryBox{
     border-top: solid;
