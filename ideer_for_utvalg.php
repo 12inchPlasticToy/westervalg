@@ -18,7 +18,7 @@
                     <p>Et utvalg som arrangerer en eller flere reiser innen- eller utenlands i løpet av skoleåret.</p>
                     <p>Kontaktperson: Kalle Trulsson <br/> Epost: trukal14@student.westerdals.no</p>
                     <div class = "votes">
-                        <input type="image" src="images/sign.png">
+                        <input type="image" src="images/sign.png" alt="stem opp">
                         <p>Antall interesserte: <b>8</b></p>
                     </div>
                 </div>
@@ -30,7 +30,7 @@
                         slik at vi kan diskutere dem sammen.</p>
                     <p>Kontaktperson: Anja Alexandra Skog<br/> Epost: skoanj15@student.westerdals.no</p>
                     <div class = "votes">
-                        <input type="image" src="images/sign.png">
+                        <input type="image" src="images/sign.png" alt="stem opp">
                         <p>Antall interesserte: <b>11</b></p>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                         og drar ut sammen for å finne kule steder å ta bilder og film.</p>
                     <p>Kontaktperson: Maja Nielsen <br/> Epost: niemaj14@student.westerdals.no</p>
                     <div class = "votes">
-                        <input type="image" src="images/sign.png">
+                        <input type="image" src="images/sign.png" alt="stem opp">
                         <p>Antall interesserte: <b>5</b></p>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                         Vi kan også samles for å se på serier som "Hele Norge baker" o.l.</p>
                     <p>Kontaktperson: Gustav Lund <br/> Epost: lungus13@student.westerdals.no</p>
                     <div class = "votes">
-                        <input type="image" src="images/sign.png">
+                        <input type="image" src="images/sign.png" alt="stem opp">
                         <p>Antall interesserte: <b>8</b></p>
                     </div>
                 </div>
