@@ -271,6 +271,14 @@ body.faq div.faq, body.utvalg div.utvalg, body.forUtvalg div.forUtvalg {
 }
 /* FAQ end */ 
 
+/* New utvalg start */
+#visitkortExample{
+    position: absolute;
+    top: 35%;
+    right: 20%;
+}
+/* New utvalg end */
+
 /* Home start*/
 
 
