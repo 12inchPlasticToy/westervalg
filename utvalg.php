@@ -50,11 +50,12 @@
             </form>
             <!-- category selector END-->
             
-            <!-- display the results according to checked buttons -->
+            <!-- Utvalg display START -->
             <br>
             <div class="visitkortWrapper">                
                 <?php include "utvalg_display.php";?>
             </div>
+            <!-- Utvalg display END -->
         </div>
         <?php include "footer.php"; ?>
     </body>
