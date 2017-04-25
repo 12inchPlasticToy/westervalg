@@ -7,16 +7,23 @@ URL
 $host = $_SERVER['HTTP_HOST'];
 switch($host){
     case 'home.nith.no':
-        define("PATH", "http://home.nith.no/~marcle15/");
+        define("PATH", "http://home.nith.no/~marcle15/westervalg_(PJ2100_iterativt_webprosjekt)/");
         break;   
     default:
         // If the header does not show properly, 
         // change second variable ("http://...") to the absolute filepath
         // where you have installed the website
         
-        define("PATH", "http://$host/pj2100-15-gruppe-22/");
+        define("PATH", "http://$host/pj2100-15-gruppe-22/westervalg_(PJ2100_iterativt_webprosjekt)/");
         break;
 }
+/*            $testpath .= $_SERVER['REQUEST_URI'];
+$testpath = $_SERVER['HTTP_HOST'];
+
+            $testpath .= dirname($_SERVER['PHP_SELF']);
+            $testpath = "http://".$testpath."/";
+define("PATH", $testpath);
+*/
        
 ?>
 <div id="header">
